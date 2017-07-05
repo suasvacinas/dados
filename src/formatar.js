@@ -23,7 +23,7 @@ var Vacina = (function () {
 }());
 var idades = [];
 function carregarIdades() {
-    $.getJSON("../dados/calendario.json", function (dados) {
+    $.getJSON("../calendario.json", function (dados) {
         dados.shift(); // remover Calendário Nacional de Vacinação 2017
         var nomesVacinas = dados.shift();
         dados.forEach(function (linha) {
@@ -58,7 +58,7 @@ function contains(nome) {
     return vacinas.filter(function (vacina) { return vacina.nomeExtenso === nome; }).length > 0;
 }
 var vacinas = [];
-$.getJSON("../dados/descricao.json", function (dados) {
+$.getJSON("../descricao.json", function (dados) {
     dados.shift(); // remover Calendário do SUS
     dados.shift(); // remover header
     dados.forEach(function (linhaVacina) {
