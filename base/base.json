@@ -4,8 +4,8 @@
       "chave": "home",
       "descricao": "Que vacinas deveria ter tomado...",
       "subOpcoes": [
-        {"titulo": "Minha filha", "chave": "minha-filha"},
-        {"titulo": "Meu filho", "chave": "meu-filho"}
+        {"tipo": "opcao", "titulo": "Minha filha", "chave": "minha-filha"},
+        {"tipo": "opcao", "titulo": "Meu filho", "chave": "meu-filho"}
       ]
     },
 
@@ -14,41 +14,41 @@
       "chave": "minha-filha",
       "descricao": "Qual a idade da sua filha?",
       "subOpcoes": [
-        {"titulo": "Até 4 meses", "chave": "filha-ate-4-meses"},
-        {"titulo": "De 5 a 12 meses", "chave": "filha-5-12-meses"},
-        {"titulo": "Mais de 12 meses", "chave": "filha-mais-12-meses"}
+        {"tipo": "opcao", "titulo": "Até 4 meses", "chave": "filha-ate-4-meses"},
+        {"tipo": "opcao", "titulo": "De 5 a 12 meses", "chave": "filha-5-12-meses"},
+        {"tipo": "opcao", "titulo": "Mais de 12 meses", "chave": "filha-mais-12-meses"}
       ]
     },
     {
       "chave": "filha-ate-4-meses",
-      "descricao": "Filha de até 4 meses, qual o período?",
+      "descricao": "Filha de até 4 meses. Uma última pergunta: qual período específico?",
       "subOpcoes": [
-        {"titulo": "Ao nascer", "chave": "filha-ao-nascer"},
-        {"titulo": "2 meses", "chave": "filha-2-meses"},
-        {"titulo": "3 meses", "chave": "filha-3-meses"},
-        {"titulo": "4 meses", "chave": "filha-4-meses"}
+        {"tipo": "dose", "titulo": "Ao nascer", "chave": "filha-ao-nascer"},
+        {"tipo": "dose", "titulo": "2 meses", "chave": "filha-2-meses"},
+        {"tipo": "dose", "titulo": "3 meses", "chave": "filha-3-meses"},
+        {"tipo": "dose", "titulo": "4 meses", "chave": "filha-4-meses"}
       ]
     },
     {
       "chave": "filha-5-12-meses",
-      "descricao": "Filha de 5 a 12 meses, qual o período?",
+      "descricao": "Filha de 5 a 12 meses. Uma última pergunta: qual período específico?",
       "subOpcoes": [
-        {"titulo": "Até 5 meses", "chave": "filha-ate-5-meses"},
-        {"titulo": "6 meses", "chave": "filha-6-meses"},
-        {"titulo": "7 meses", "chave": "filha-7-meses"},
-        {"titulo": "9 meses", "chave": "filha-9-meses"},
-        {"titulo": "12 meses", "chave": "filha-12-meses"}
+        {"tipo": "dose", "titulo": "Até 5 meses", "chave": "filha-ate-5-meses"},
+        {"tipo": "dose", "titulo": "6 meses", "chave": "filha-6-meses"},
+        {"tipo": "dose", "titulo": "7 meses", "chave": "filha-7-meses"},
+        {"tipo": "dose", "titulo": "9 meses", "chave": "filha-9-meses"},
+        {"tipo": "dose", "titulo": "12 meses", "chave": "filha-12-meses"}
       ]
     },
     {
       "chave": "filha-mais-12-meses",
-      "descricao": "Filha de mais de meses, qual o período?",
+      "descricao": "Filha de mais de meses. Uma última pergunta: qual período específico?",
       "subOpcoes": [
-        {"titulo": "Até 15 meses", "chave": "filha-ate-15-meses"},
-        {"titulo": "18 meses", "chave": "filha-18-meses"},
-        {"titulo": "4 anos", "chave": "filha-4-anos"},
-        {"titulo": "5 anos", "chave": "filha-5-anos"},
-        {"titulo": "9 anos ou mais", "chave": "filha-9-anos"}
+        {"tipo": "dose", "titulo": "Até 15 meses", "chave": "filha-ate-15-meses"},
+        {"tipo": "dose", "titulo": "18 meses", "chave": "filha-18-meses"},
+        {"tipo": "dose", "titulo": "4 anos", "chave": "filha-4-anos"},
+        {"tipo": "dose", "titulo": "5 anos", "chave": "filha-5-anos"},
+        {"tipo": "dose", "titulo": "9 anos ou mais", "chave": "filha-9-anos"}
       ]
     },
 
@@ -56,41 +56,41 @@
       "chave": "minha-filho",
       "descricao": "Qual a idade da sua filho?",
       "subOpcoes": [
-        {"titulo": "Até 4 meses", "chave": "filho-ate-4-meses"},
-        {"titulo": "De 5 a 12 meses", "chave": "filho-5-12-meses"},
-        {"titulo": "Mais de 12 meses", "chave": "filho-mais-12-meses"}
+        {"tipo": "opcao", "titulo": "Até 4 meses", "chave": "filho-ate-4-meses"},
+        {"tipo": "opcao", "titulo": "De 5 a 12 meses", "chave": "filho-5-12-meses"},
+        {"tipo": "opcao", "titulo": "Mais de 12 meses", "chave": "filho-mais-12-meses"}
       ]
     },
     {
       "chave": "filho-ate-4-meses",
-      "descricao": "Filho de até 4 meses, qual o período?",
+      "descricao": "Filho de até 4 meses. Uma última pergunta: qual período específico?",
       "subOpcoes": [
-        {"titulo": "Ao nascer", "chave": "filho-ao-nascer"},
-        {"titulo": "2 meses", "chave": "filho-2-meses"},
-        {"titulo": "3 meses", "chave": "filho-3-meses"},
-        {"titulo": "4 meses", "chave": "filho-4-meses"}
+        {"tipo": "dose", "titulo": "Ao nascer", "chave": "filho-ao-nascer"},
+        {"tipo": "dose", "titulo": "2 meses", "chave": "filho-2-meses"},
+        {"tipo": "dose", "titulo": "3 meses", "chave": "filho-3-meses"},
+        {"tipo": "dose", "titulo": "4 meses", "chave": "filho-4-meses"}
       ]
     },
     {
       "chave": "filho-5-12-meses",
-      "descricao": "Filho de 5 a 12 meses, qual o período?",
+      "descricao": "Filho de 5 a 12 meses. Uma última pergunta: qual período específico?",
       "subOpcoes": [
-        {"titulo": "Até 5 meses", "chave": "filho-ate-5-meses"},
-        {"titulo": "6 meses", "chave": "filho-6-meses"},
-        {"titulo": "7 meses", "chave": "filho-7-meses"},
-        {"titulo": "9 meses", "chave": "filho-9-meses"},
-        {"titulo": "12 meses", "chave": "filho-12-meses"}
+        {"tipo": "dose", "titulo": "Até 5 meses", "chave": "filho-ate-5-meses"},
+        {"tipo": "dose", "titulo": "6 meses", "chave": "filho-6-meses"},
+        {"tipo": "dose", "titulo": "7 meses", "chave": "filho-7-meses"},
+        {"tipo": "dose", "titulo": "9 meses", "chave": "filho-9-meses"},
+        {"tipo": "dose", "titulo": "12 meses", "chave": "filho-12-meses"}
       ]
     },
     {
       "chave": "filho-mais-12-meses",
-      "descricao": "Filho de mais de meses, qual o período?",
+      "descricao": "Filho de mais de meses. Uma última pergunta: qual período específico?",
       "subOpcoes": [
-        {"titulo": "Até 15 meses", "chave": "filho-ate-15-meses"},
-        {"titulo": "18 meses", "chave": "filho-18-meses"},
-        {"titulo": "4 anos", "chave": "filho-4-anos"},
-        {"titulo": "5 anos", "chave": "filho-5-anos"},
-        {"titulo": "9 anos ou mais", "chave": "filho-9-anos"}
+        {"tipo": "dose", "titulo": "Até 15 meses", "chave": "filho-ate-15-meses"},
+        {"tipo": "dose", "titulo": "18 meses", "chave": "filho-18-meses"},
+        {"tipo": "dose", "titulo": "4 anos", "chave": "filho-4-anos"},
+        {"tipo": "dose", "titulo": "5 anos", "chave": "filho-5-anos"},
+        {"tipo": "dose", "titulo": "9 anos ou mais", "chave": "filho-9-anos"}
       ]
     }
   ],
