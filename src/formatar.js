@@ -26,8 +26,10 @@ function carregarIdades() {
     $.getJSON("dados/calendario.json", function (dados) {
         dados.shift(); // remover Calendário Nacional de Vacinação 2017
         var nomesVacinas = dados.shift();
+        var nomes = [];
         dados.forEach(function (linha) {
             var idade = linha["FIELD2"];
+            nomes.push(idade);
             var doses = [];
             for (var i = 3; i <= 13; i++) {
                 var dose = linha["FIELD" + i];
@@ -37,6 +39,7 @@ function carregarIdades() {
             }
             idades.push(new Idade(idade, doses));
         });
+        console.log(JSON.stringify(nomes, null, '\t'));
         console.log(JSON.stringify(idades, null, '\t'));
         var table = $('#doses');
         idades.forEach(function (idade) {
@@ -61,10 +64,13 @@ var vacinas = [];
 $.getJSON("dados/descricao.json", function (dados) {
     dados.shift(); // remover Calendário do SUS
     dados.shift(); // remover header
+    var nomes = [];
     dados.forEach(function (linhaVacina) {
+        nomes.push(linhaVacina["FIELD1"]);
         vacinas.push(new Vacina(linhaVacina["FIELD1"], linhaVacina["FIELD2"], linhaVacina["FIELD3"], linhaVacina["FIELD4"]));
     });
     // console.log('vacinas');
+    console.log(JSON.stringify(nomes, null, '\t'));
     console.log(JSON.stringify(vacinas, null, '\t'));
     var table = $('#vacinas');
     vacinas.forEach(function (vacina) {
