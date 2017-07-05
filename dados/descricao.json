@@ -1,0 +1,140 @@
+[
+ {
+   "FIELD1": "Calendário do SUS",
+   "FIELD2": "",
+   "FIELD3": "",
+   "FIELD4": ""
+ },
+ {
+   "FIELD1": "Vacina",
+   "FIELD2": "Descrição ",
+   "FIELD3": "Rede Pública ",
+   "FIELD4": "Variação"
+ },
+ {
+   "FIELD1": "BCG",
+   "FIELD2": "Previne as formas graves da tuberculose (miliar e meníngea)",
+   "FIELD3": "",
+   "FIELD4": ""
+ },
+ {
+   "FIELD1": "Hepatite B",
+   "FIELD2": "Previne a infecção causadoa pelo vírus da hepatite B",
+   "FIELD3": "",
+   "FIELD4": ""
+ },
+ {
+   "FIELD1": "Penta/DTPw",
+   "FIELD2": "Protege contra difteria, tétano, coqueluche, hepatite B e as infecções causadas pela bactéria Haemophilus influenza tipo b ",
+   "FIELD3": "DTPw - é feita a partir de céluas inteiras da bactéria",
+   "FIELD4": "DTPa - é acelular, ou seja, não é feita com células inteiras, mas sim com proteínas. “Ela é uma vacina mais purificada, só contém o que realmente é necessário para proteger o ser humano e por isso as chances de ocorrerem eventos adversos são menos frequentes e intensas”, explica a pediatra Isabella Ballalai, presidente da Sociedade Brasileira de Imunizações (SBIm). Caso seu bebê tenha tomada uma dose da DTPw, que é oferecida na rede pública, e tenha apresentado febre alta por um tempo prolongado e outras reações adversas é recomendado passar a oferecer a DTPa."
+ },
+ {
+   "FIELD1": "Hexavalente acelular",
+   "FIELD2": "Protege contra difteria, tétano, coqueluche, hepatite B, as infecções causadas pela bactéria Haemophilus influenza tipo b e também poliomielite",
+   "FIELD3": "",
+   "FIELD4": ""
+ },
+ {
+   "FIELD1": "DTP",
+   "FIELD2": "Protege contra difteria, tétano e coqueluche",
+   "FIELD3": "",
+   "FIELD4": ""
+ },
+ {
+   "FIELD1": "VIP (Vacina Intaivada poliomielite) /VOP (Vacina Oral poliomielite)",
+   "FIELD2": "Protege contra poliomielite",
+   "FIELD3": "VIP 3 doses e VOP em reforços",
+   "FIELD4": "Somente se tomou DTPa e dTpa"
+ },
+ {
+   "FIELD1": "Pneumocócia (conjugada)",
+   "FIELD2": "Previne infecções invasivas (septicemia, meningite, pneumonia e bacteriana) e otite média aguda (OMA), causadas pelo Streptococus pneumoniae",
+   "FIELD3": "VPC10 - protege contra 10 subtipos de pneumococos.",
+   "FIELD4": "VPC13 - protege contra 13 subtipos de pneumococos"
+ },
+ {
+   "FIELD1": "Rotavírus Humano",
+   "FIELD2": "Protege contra as complicações decorrentes da infecção pelo rotavírus",
+   "FIELD3": "Monovalente - protege contra um sorotipo de rotavírus, mas oferece proteção cruzada contra outro sorotipo. ",
+   "FIELD4": "Pentavalente - oferece imunidade contra 5 sorotipos diferentes de rotavírus. Bebes ue iniciam a vacinação com uma determinada vacina devem idealmente terminar o esquema vacinal com o mesmo produto. "
+ },
+ {
+   "FIELD1": "Meningocócica (conjugada)",
+   "FIELD2": "Previne a doença sistêmica causada pela Neisseria meningitidis do sorogrupo C",
+   "FIELD3": "MenC - previne contra o tipo C",
+   "FIELD4": "MenACWY - previne contra os tipos ACWY"
+ },
+ {
+   "FIELD1": "Febre Amarela",
+   "FIELD2": "Protege contra a febre amarela",
+   "FIELD3": "Sim",
+   "FIELD4": ""
+ },
+ {
+   "FIELD1": "Hepatite A",
+   "FIELD2": "Previne a infecção do fígado causado pelo vírus da hepatite A",
+   "FIELD3": "",
+   "FIELD4": ""
+ },
+ {
+   "FIELD1": "Tríplice Viral (sarampo, caxumba e rubéola)",
+   "FIELD2": "Protege contra sarampo, caxumba e rubéola",
+   "FIELD3": "Sim",
+   "FIELD4": ""
+ },
+ {
+   "FIELD1": "Tetra viral",
+   "FIELD2": "Protege contra sarampo, caxumba, rubéola e varicela. ",
+   "FIELD3": "",
+   "FIELD4": ""
+ },
+ {
+   "FIELD1": "dT",
+   "FIELD2": "Protege contra tétano e difteria",
+   "FIELD3": "",
+   "FIELD4": ""
+ },
+ {
+   "FIELD1": "Haemophilus influenza b",
+   "FIELD2": "Protege  doenças infecciosas e complicações causas pela bactéria, como pneumonia, dor de ouvido, inflamação na epiglote, meningite, inflamação nas articulações, entre outros. ",
+   "FIELD3": "Na rede pública está inclusa na Penta. Na rede privada pode ser dada individualmente",
+   "FIELD4": ""
+ },
+ {
+   "FIELD1": "Triplice bacteriana acelular do tipo adulto",
+   "FIELD2": "",
+   "FIELD3": "Na rede pública disponível apenas as doses da infância",
+   "FIELD4": "Indicada como reforço a cada dez anos. "
+ },
+ {
+   "FIELD1": "Meningocócica B",
+   "FIELD2": "Protege contra doença meningocócica invasiva (meningite, meningococcemia) causada pelo meningococo do tipo B.",
+   "FIELD3": "",
+   "FIELD4": "Somente na rede privada"
+ },
+ {
+   "FIELD1": "Influenza (gripe)",
+   "FIELD2": "",
+   "FIELD3": "3V para menores de 5 anos",
+   "FIELD4": "Indicação re imunização anual, independente da idade. "
+ },
+ {
+   "FIELD1": "Varicela (catapora)",
+   "FIELD2": "",
+   "FIELD3": "Na rede pública disponível na tetra viral",
+   "FIELD4": "Indicado uma dose além da oferecida na rede pública"
+ },
+ {
+   "FIELD1": "Dengue",
+   "FIELD2": "Previne contra 4 sorotipos de dengue. Permitida apenas a partir de 9 anos",
+   "FIELD3": "Não disponível na rede pública",
+   "FIELD4": ""
+ },
+ {
+   "FIELD1": "",
+   "FIELD2": "",
+   "FIELD3": "",
+   "FIELD4": ""
+ }
+]

@@ -23,19 +23,20 @@ var Vacina = (function () {
 }());
 var idades = [];
 function carregarIdades() {
-    $.getJSON("https://raw.githubusercontent.com/suasvacinas/suasvacinas/master/_docs/calendario.json", function (dados) {
-        console.log(dados);
+    $.getJSON("../dados/calendario.json", function (dados) {
         dados.shift(); // remover Calendário Nacional de Vacinação 2017
         var nomesVacinas = dados.shift();
         dados.forEach(function (linha) {
             var idade = linha["FIELD2"];
             var doses = [];
             for (var i = 3; i <= 13; i++) {
-                doses.push(new Dose(nomesVacinas["FIELD" + i], linha["FIELD" + i]));
+                var dose = linha["FIELD" + i];
+                if (dose.length) {
+                    doses.push(new Dose(nomesVacinas["FIELD" + i], dose));
+                }
             }
             idades.push(new Idade(idade, doses));
         });
-        console.log('resultados');
         console.log(JSON.stringify(idades, null, '\t'));
         var table = $('#doses');
         idades.forEach(function (idade) {
@@ -43,7 +44,7 @@ function carregarIdades() {
             $("<td>", { text: 'idade: ' + idade.nomeIdade }).appendTo(linha);
             idade.doses.forEach(function (dose) {
                 if (dose.dose.length) {
-                    $("<td>", { text: dose.nome + ": " + dose.dose }).appendTo(linha);
+                    $("<td>", { html: dose.nome + ": " + dose.dose, 'class': 'contains-' + contains(dose.nome) }).appendTo(linha);
                 }
                 else {
                     $("<td>", { text: "-" }).appendTo(linha);
@@ -53,15 +54,17 @@ function carregarIdades() {
         });
     });
 }
+function contains(nome) {
+    return vacinas.filter(function (vacina) { return vacina.nomeExtenso === nome; }).length > 0;
+}
 var vacinas = [];
-$.getJSON("https://raw.githubusercontent.com/suasvacinas/suasvacinas/master/_docs/descricao.json", function (dados) {
-    console.log(dados);
+$.getJSON("../dados/descricao.json", function (dados) {
     dados.shift(); // remover Calendário do SUS
     dados.shift(); // remover header
     dados.forEach(function (linhaVacina) {
         vacinas.push(new Vacina(linhaVacina["FIELD1"], linhaVacina["FIELD2"], linhaVacina["FIELD3"], linhaVacina["FIELD4"]));
     });
-    console.log('vacinas');
+    // console.log('vacinas');
     console.log(JSON.stringify(vacinas, null, '\t'));
     var table = $('#vacinas');
     vacinas.forEach(function (vacina) {

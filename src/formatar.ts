@@ -13,8 +13,7 @@ class Vacina {
 
 const idades = [];
 function carregarIdades() {
-  $.getJSON("https://raw.githubusercontent.com/suasvacinas/suasvacinas/master/_docs/calendario.json", function (dados) {
-    console.log(dados);
+  $.getJSON("../dados/calendario.json", function (dados) {
 
     dados.shift(); // remover Calendário Nacional de Vacinação 2017
     let nomesVacinas = dados.shift();
@@ -24,13 +23,15 @@ function carregarIdades() {
       let idade: string = linha["FIELD2"];
       let doses: Dose[] = [];
       for (let i = 3; i <= 13; i++) {
-        doses.push(new Dose(nomesVacinas["FIELD" + i], linha["FIELD" + i]));
+        let dose = linha["FIELD" + i];
+        if (dose.length) {
+          doses.push(new Dose(nomesVacinas["FIELD" + i], dose));
+        }
       }
 
       idades.push(new Idade(idade, doses));
     });
 
-    console.log('resultados');
     console.log(JSON.stringify(idades, null, '\t'));
 
 
@@ -40,7 +41,7 @@ function carregarIdades() {
       $("<td>", {text: 'idade: ' + idade.nomeIdade}).appendTo(linha);
       idade.doses.forEach((dose) => {
         if (dose.dose.length) {
-          $("<td>", {text: dose.nome + ": " + dose.dose}).appendTo(linha);
+          $("<td>", {html: dose.nome + ": " + dose.dose, 'class': 'contains-'+contains(dose.nome)}).appendTo(linha);
         } else {
           $("<td>", {text: "-"}).appendTo(linha);
         }
@@ -50,9 +51,12 @@ function carregarIdades() {
   });
 }
 
+function contains(nome) {
+  return vacinas.filter((vacina) => vacina.nomeExtenso === nome).length > 0;
+}
+
 const vacinas = [];
-$.getJSON("https://raw.githubusercontent.com/suasvacinas/suasvacinas/master/_docs/descricao.json", function (dados) {
-  console.log(dados);
+$.getJSON("../dados/descricao.json", function (dados) {
 
   dados.shift(); // remover Calendário do SUS
   dados.shift(); // remover header
@@ -66,7 +70,7 @@ $.getJSON("https://raw.githubusercontent.com/suasvacinas/suasvacinas/master/_doc
     );
   });
 
-  console.log('vacinas');
+  // console.log('vacinas');
   console.log(JSON.stringify(vacinas, null, '\t'));
 
   let table = $('#vacinas');
