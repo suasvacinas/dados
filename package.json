@@ -1,0 +1,23 @@
+{
+  "name": "dados",
+  "version": "1.0.0",
+  "description": "You can use the [editor on GitHub](https://github.com/suasvacinas/dados/edit/master/README.md) to maintain and preview the content for your website in Markdown files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suasvacinas/dados.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suasvacinas/dados/issues"
+  },
+  "homepage": "https://github.com/suasvacinas/dados#readme",
+  "dependencies": {
+    "@types/jquery": "^3.2.5"
+  }
+}
