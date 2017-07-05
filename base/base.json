@@ -23,32 +23,32 @@
       "chave": "filha-ate-4-meses",
       "descricao": "Filha de até 4 meses. Uma última pergunta: qual período específico?",
       "subOpcoes": [
-        {"tipo": "dose", "titulo": "Ao nascer", "chave": "filha-ao-nascer"},
-        {"tipo": "dose", "titulo": "2 meses", "chave": "filha-2-meses"},
-        {"tipo": "dose", "titulo": "3 meses", "chave": "filha-3-meses"},
-        {"tipo": "dose", "titulo": "4 meses", "chave": "filha-4-meses"}
+        {"tipo": "dose", "titulo": "Ao nascer", "meses": 0},
+        {"tipo": "dose", "titulo": "2 meses", "meses": 2},
+        {"tipo": "dose", "titulo": "3 meses", "meses": 3},
+        {"tipo": "dose", "titulo": "4 meses", "meses": 4}
       ]
     },
     {
       "chave": "filha-5-12-meses",
       "descricao": "Filha de 5 a 12 meses. Uma última pergunta: qual período específico?",
       "subOpcoes": [
-        {"tipo": "dose", "titulo": "Até 5 meses", "chave": "filha-ate-5-meses"},
-        {"tipo": "dose", "titulo": "6 meses", "chave": "filha-6-meses"},
-        {"tipo": "dose", "titulo": "7 meses", "chave": "filha-7-meses"},
-        {"tipo": "dose", "titulo": "9 meses", "chave": "filha-9-meses"},
-        {"tipo": "dose", "titulo": "12 meses", "chave": "filha-12-meses"}
+        {"tipo": "dose", "titulo": "Até 5 meses", "meses": 5},
+        {"tipo": "dose", "titulo": "6 meses", "meses": 6},
+        {"tipo": "dose", "titulo": "7 meses", "meses": 7},
+        {"tipo": "dose", "titulo": "9 meses", "meses": 9},
+        {"tipo": "dose", "titulo": "12 meses", "meses": 12}
       ]
     },
     {
       "chave": "filha-mais-12-meses",
       "descricao": "Filha de mais de meses. Uma última pergunta: qual período específico?",
       "subOpcoes": [
-        {"tipo": "dose", "titulo": "Até 15 meses", "chave": "filha-ate-15-meses"},
-        {"tipo": "dose", "titulo": "18 meses", "chave": "filha-18-meses"},
-        {"tipo": "dose", "titulo": "4 anos", "chave": "filha-4-anos"},
-        {"tipo": "dose", "titulo": "5 anos", "chave": "filha-5-anos"},
-        {"tipo": "dose", "titulo": "9 anos ou mais", "chave": "filha-9-anos"}
+        {"tipo": "dose", "titulo": "Até 15 meses", "meses": 15},
+        {"tipo": "dose", "titulo": "18 meses", "meses": 18},
+        {"tipo": "dose", "titulo": "4 anos", "meses": 48},
+        {"tipo": "dose", "titulo": "5 anos", "meses": 60},
+        {"tipo": "dose", "titulo": "9 anos ou mais", "meses": 108}
       ]
     },
 
@@ -65,190 +65,158 @@
       "chave": "filho-ate-4-meses",
       "descricao": "Filho de até 4 meses. Uma última pergunta: qual período específico?",
       "subOpcoes": [
-        {"tipo": "dose", "titulo": "Ao nascer", "chave": "filho-ao-nascer"},
-        {"tipo": "dose", "titulo": "2 meses", "chave": "filho-2-meses"},
-        {"tipo": "dose", "titulo": "3 meses", "chave": "filho-3-meses"},
-        {"tipo": "dose", "titulo": "4 meses", "chave": "filho-4-meses"}
+        {"tipo": "dose", "titulo": "Ao nascer", "meses": 0},
+        {"tipo": "dose", "titulo": "2 meses", "meses": 2},
+        {"tipo": "dose", "titulo": "3 meses", "meses": 3},
+        {"tipo": "dose", "titulo": "4 meses", "meses": 4}
       ]
     },
     {
       "chave": "filho-5-12-meses",
       "descricao": "Filho de 5 a 12 meses. Uma última pergunta: qual período específico?",
       "subOpcoes": [
-        {"tipo": "dose", "titulo": "Até 5 meses", "chave": "filho-ate-5-meses"},
-        {"tipo": "dose", "titulo": "6 meses", "chave": "filho-6-meses"},
-        {"tipo": "dose", "titulo": "7 meses", "chave": "filho-7-meses"},
-        {"tipo": "dose", "titulo": "9 meses", "chave": "filho-9-meses"},
-        {"tipo": "dose", "titulo": "12 meses", "chave": "filho-12-meses"}
+        {"tipo": "dose", "titulo": "Até 5 meses", "meses": 5},
+        {"tipo": "dose", "titulo": "6 meses", "meses": 6},
+        {"tipo": "dose", "titulo": "7 meses", "meses": 7},
+        {"tipo": "dose", "titulo": "9 meses", "meses": 9},
+        {"tipo": "dose", "titulo": "12 meses", "meses": 12}
       ]
     },
     {
       "chave": "filho-mais-12-meses",
       "descricao": "Filho de mais de meses. Uma última pergunta: qual período específico?",
       "subOpcoes": [
-        {"tipo": "dose", "titulo": "Até 15 meses", "chave": "filho-ate-15-meses"},
-        {"tipo": "dose", "titulo": "18 meses", "chave": "filho-18-meses"},
-        {"tipo": "dose", "titulo": "4 anos", "chave": "filho-4-anos"},
-        {"tipo": "dose", "titulo": "5 anos", "chave": "filho-5-anos"},
-        {"tipo": "dose", "titulo": "9 anos ou mais", "chave": "filho-9-anos"}
+        {"tipo": "dose", "titulo": "Até 15 meses", "meses": 15},
+        {"tipo": "dose", "titulo": "18 meses", "meses": 18},
+        {"tipo": "dose", "titulo": "4 anos", "meses": 48},
+        {"tipo": "dose", "titulo": "5 anos", "meses": 60},
+        {"tipo": "dose", "titulo": "9 anos ou mais", "meses": 108}
       ]
     }
   ],
   "doses": [
     {
-      "chave": "",
+      "chave": "filha-ao-nascer",
       "idadeDose": "Ao nascer",
+      "meses": 0,
       "doses": [
-        {
-          "nome": "BCG",
-          "dose": "Dose única"
-        },
-        {
-          "nome": "Hepatite B",
-          "dose": "Dose ao nascer"
-        }
+        {"nome": "BCG",        "dose": "Dose única",     "fonte": "SUS"},
+        {"nome": "Hepatite B", "dose": "Dose ao nascer", "fonte": "SUS"}
       ]
     },
     {
       "idadeDose": "2 meses",
+      "meses": 2,
       "doses": [
-        {
-          "nome": "Penta/DTP",
-          "dose": "1ª dose "
-        },
-        {
-          "nome": "VIP/VOP",
-          "dose": "1ª dose (com VIP)"
-        },
-        {
-          "nome": "Pneumocócia 10V (conjugada)*",
-          "dose": "1ª dose "
-        },
-        {
-          "nome": "Rotavírus Humano",
-          "dose": "1ª dose "
-        }
+        {"nome": "Penta/DTP",               "dose": "1ª dose",           "fonte": "SUS"},
+        {"nome": "VIP/VOP",                 "dose": "1ª dose (com VIP)", "fonte": "SUS"},
+        {"nome": "Pneumocócia (conjugada)", "dose": "1ª dose",           "fonte": "SUS"},
+        {"nome": "Rotavírus Humano",        "dose": "1ª dose",           "fonte": "SUS"}
       ]
     },
     {
       "idadeDose": "3 meses",
+      "meses": 3,
       "doses": [
-        {
-          "nome": "Meningocócica C (conjugada)*",
-          "dose": "1ª dose "
-        }
+        {"nome": "Meningocócica C (conjugada)", "dose": "1ª dose", "fonte": "SUS"},
+        {"nome": "Meningocócica B",             "dose": "1ª dose", "fonte": "SBIM/SBP"}
       ]
     },
     {
       "idadeDose": "4 meses",
+      "meses": 4,
       "doses": [
-        {
-          "nome": "Penta/DTP",
-          "dose": "2ª dose "
-        },
-        {
-          "nome": "VIP/VOP",
-          "dose": "2ª dose (com VIP)"
-        },
-        {
-          "nome": "Pneumocócia 10V (conjugada)*",
-          "dose": "2ª dose "
-        },
-        {
-          "nome": "Rotavírus Humano",
-          "dose": "2ª dose "
-        }
+        {"nome": "Penta/DTP",                   "dose": "2ª dose",           "fonte": "SUS"},
+        {"nome": "VIP/VOP",                     "dose": "2ª dose (com VIP)", "fonte": "SUS"},
+        {"nome": "Pneumocócia (conjugada)",      "dose": "2ª dose",           "fonte": "SUS"},
+        {"nome": "Rotavírus Humano",            "dose": "2ª dose",           "fonte": "SUS"}
       ]
     },
     {
       "idadeDose": "5 meses",
+      "meses": 5,
       "doses": [
-        {
-          "nome": "Meningocócica C (conjugada)*",
-          "dose": "2ª dose "
-        }
+        {"nome": "Meningocócica C (conjugada)", "dose": "2ª dose", "fonte": "SUS"},
+        {"nome": "Meningocócica B",             "dose": "2ª dose", "fonte": "SBIM/SBP"}
       ]
     },
     {
       "idadeDose": "6 meses",
+      "meses": 6,
       "doses": [
-        {
-          "nome": "Penta/DTP",
-          "dose": "3ª dose "
-        },
-        {
-          "nome": "VIP/VOP",
-          "dose": "3ª dose (com VIP)"
-        }
+        {"nome": "Penta/DTP",                   "dose": "3ª dose",                          "fonte": "SUS"},
+        {"nome": "VIP/VOP",                     "dose": "3ª dose (com VIP)",                "fonte": "SUS"},
+        {"nome": "Pneumocócia (conjugada)",     "dose": "3ª dose",                          "fonte": "SBIM/SBP"},
+        {"nome": "Rotavírus Humano",            "dose": "3ª dose (apenas na pentavalente)", "fonte": "SBIM/SBP"},
+        {"nome": "Influenza (gripe)",           "dose": "1ª dose",                          "fonte": "SUS"}
+      ]
+    },
+    {
+      "idadeDose": "7 meses",
+      "meses": 7,
+      "doses": [
+        {"nome": "Meningocócica C (conjugada)", "dose": "Reforço",                          "fonte": "SUS"},
+        {"nome": "Influenza (gripe)",           "dose": "Reforço",                          "fonte": "SUS"},
+        {"nome": "Meningocócica B",             "dose": "3ª dose",                          "fonte": "SBIM/SBP"}
       ]
     },
     {
       "idadeDose": "9 meses",
+      "meses": 9,
       "doses": [
-        {
-          "nome": "Febre Amarela",
-          "dose": "Dose única"
-        }
+        {"nome": "Febre Amarela", "dose": "Dose única", "fonte": "SUS"}
       ]
     },
     {
       "idadeDose": "12 meses",
+      "meses": 12,
       "doses": [
-        {
-          "nome": "Pneumocócia 10V (conjugada)*",
-          "dose": "Reforço"
-        },
-        {
-          "nome": "Meningocócica C (conjugada)*",
-          "dose": "Reforço"
-        },
-        {
-          "nome": "Tríplice Viral",
-          "dose": "1ª dose "
-        }
+        {"nome": "Pneumocócia (conjugada)",     "dose": "Reforço",                          "fonte": "SUS"},
+        {"nome": "Meningocócica C (conjugada)", "dose": "Reforço",                          "fonte": "SUS"},
+        {"nome": "Tríplice Viral (SCR)",        "dose": "1ª dose",                          "fonte": "SUS"},
+        {"nome": "Meningocócica B",             "dose": "Reforço",                          "fonte": "SBIM/SBP"}
       ]
     },
     {
       "idadeDose": "15 meses",
+      "meses": 15,
       "doses": [
-        {
-          "nome": "Penta/DTP",
-          "dose": "1° reforço (com DTP)"
-        },
-        {
-          "nome": "VIP/VOP",
-          "dose": "1° reforço (com VOP)"
-        },
-        {
-          "nome": "Hepatite A",
-          "dose": "Uma dose    (15 meses até 23 meses)"
-        },
-        {
-          "nome": "Tetra viral",
-          "dose": "Uma dose"
-        }
+        {"nome": "Penta/DTP",                   "dose": "1° reforço (com DTP)",             "fonte": "SUS"},
+        {"nome": "VIP/VOP",                     "dose": "1° reforço (com VOP)",             "fonte": "SUS"},
+        {"nome": "Hepatite A",                  "dose": "Uma dose",                         "fonte": "SUS"},
+        {"nome": "Tetra viral",                 "dose": "Uma dose",                         "fonte": "SUS"}
+      ]
+    },
+    {
+      "idadeDose": "18 meses",
+      "meses": 18,
+      "doses": [
+        {"nome": "Hepatite A",                  "dose": "Reforço",                          "fonte": "SBIM/SBP"}
       ]
     },
     {
       "idadeDose": "4 anos",
+      "meses": 48,
       "doses": [
-        {
-          "nome": "Penta/DTP",
-          "dose": "2° reforço (com DTP)"
-        },
-        {
-          "nome": "VIP/VOP",
-          "dose": "2° reforço (com VOP)"
-        }
+        {"nome": "Penta/DTP",                   "dose": "2° reforço (com DTP)",             "fonte": "SUS"},
+        {"nome": "VIP/VOP",                     "dose": "2° reforço (com VOP)",             "fonte": "SUS"},
+        {"nome": "Influenza (gripe)",           "dose": "Reforço",                          "fonte": "SUS"}
       ]
     },
     {
       "idadeDose": "5 anos",
-      "doses": []
+      "meses": 60,
+      "doses": [
+        {"nome": "Meningocócica C (conjugada)", "dose": "Reforço",                          "fonte": "SBIM/SBP"}
+      ]
     },
     {
       "idadeDose": "9 anos",
-      "doses": []
+      "meses": 108,
+      "doses": [
+        {"nome": "HPV",                         "dose": "2 doses",                          "fonte": "SUS"},
+        {"nome": "Dengue",                      "dose": "3 doses com intervalo de 6 meses entre cada uma", "fonte": "SBIM/SBP"}
+      ]
     }
   ]
 }
