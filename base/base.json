@@ -1,0 +1,204 @@
+{
+  "opcoes": [
+    {
+      "nomeOpcao": "Home",
+      "tipo": "opcao",
+      "subOpcoes": [
+        "Minha filha",
+        "Meu filho"
+      ]
+    },
+    {
+      "nomeOpcao": "Minha filha",
+      "tipo": "opcao",
+      "subOpcoes": [
+        "Ao nascer",
+        "2 meses",
+        "3 meses",
+        "4 meses",
+        "5 meses",
+        "6 meses",
+        "9 meses",
+        "12 meses",
+        "15 meses",
+        "4 anos",
+        "5 anos",
+        "9 anos"
+      ]
+    },
+    {
+      "nomeOpcao": "Meu filho",
+      "tipo": "opcao",
+      "subOpcoes": [
+        "Ao nascer",
+        "2 meses",
+        "3 meses",
+        "4 meses",
+        "5 meses",
+        "6 meses",
+        "9 meses",
+        "12 meses",
+        "15 meses",
+        "4 anos",
+        "5 anos",
+        "9 anos"
+      ]
+    }
+  ],
+  "doses": [
+    {
+      "idadeDose": "Ao nascer",
+      "doses": [
+        {
+          "nome": "BCG",
+          "dose": "Dose única"
+        },
+        {
+          "nome": "Hepatite B",
+          "dose": "Dose ao nascer"
+        }
+      ]
+    },
+    {
+      "idadeDose": "2 meses",
+      "doses": [
+        {
+          "nome": "Penta/DTP",
+          "dose": "1ª dose "
+        },
+        {
+          "nome": "VIP/VOP",
+          "dose": "1ª dose (com VIP)"
+        },
+        {
+          "nome": "Pneumocócia 10V (conjugada)*",
+          "dose": "1ª dose "
+        },
+        {
+          "nome": "Rotavírus Humano",
+          "dose": "1ª dose "
+        }
+      ]
+    },
+    {
+      "idadeDose": "3 meses",
+      "doses": [
+        {
+          "nome": "Meningocócica C (conjugada)*",
+          "dose": "1ª dose "
+        }
+      ]
+    },
+    {
+      "idadeDose": "4 meses",
+      "doses": [
+        {
+          "nome": "Penta/DTP",
+          "dose": "2ª dose "
+        },
+        {
+          "nome": "VIP/VOP",
+          "dose": "2ª dose (com VIP)"
+        },
+        {
+          "nome": "Pneumocócia 10V (conjugada)*",
+          "dose": "2ª dose "
+        },
+        {
+          "nome": "Rotavírus Humano",
+          "dose": "2ª dose "
+        }
+      ]
+    },
+    {
+      "idadeDose": "5 meses",
+      "doses": [
+        {
+          "nome": "Meningocócica C (conjugada)*",
+          "dose": "2ª dose "
+        }
+      ]
+    },
+    {
+      "idadeDose": "6 meses",
+      "doses": [
+        {
+          "nome": "Penta/DTP",
+          "dose": "3ª dose "
+        },
+        {
+          "nome": "VIP/VOP",
+          "dose": "3ª dose (com VIP)"
+        }
+      ]
+    },
+    {
+      "idadeDose": "9 meses",
+      "doses": [
+        {
+          "nome": "Febre Amarela",
+          "dose": "Dose única"
+        }
+      ]
+    },
+    {
+      "idadeDose": "12 meses",
+      "doses": [
+        {
+          "nome": "Pneumocócia 10V (conjugada)*",
+          "dose": "Reforço"
+        },
+        {
+          "nome": "Meningocócica C (conjugada)*",
+          "dose": "Reforço"
+        },
+        {
+          "nome": "Tríplice Viral",
+          "dose": "1ª dose "
+        }
+      ]
+    },
+    {
+      "idadeDose": "15 meses",
+      "doses": [
+        {
+          "nome": "Penta/DTP",
+          "dose": "1° reforço (com DTP)"
+        },
+        {
+          "nome": "VIP/VOP",
+          "dose": "1° reforço (com VOP)"
+        },
+        {
+          "nome": "Hepatite A",
+          "dose": "Uma dose    (15 meses até 23 meses)"
+        },
+        {
+          "nome": "Tetra viral",
+          "dose": "Uma dose"
+        }
+      ]
+    },
+    {
+      "idadeDose": "4 anos",
+      "doses": [
+        {
+          "nome": "Penta/DTP",
+          "dose": "2° reforço (com DTP)"
+        },
+        {
+          "nome": "VIP/VOP",
+          "dose": "2° reforço (com VOP)"
+        }
+      ]
+    },
+    {
+      "idadeDose": "5 anos",
+      "doses": []
+    },
+    {
+      "idadeDose": "9 anos",
+      "doses": []
+    }
+  ]
+}
