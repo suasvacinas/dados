@@ -13,7 +13,7 @@ class Vacina {
 
 const idades = [];
 function carregarIdades() {
-  $.getJSON("../calendario.json", function (dados) {
+  $.getJSON("dados/calendario.json", function (dados) {
 
     dados.shift(); // remover Calendário Nacional de Vacinação 2017
     let nomesVacinas = dados.shift();
@@ -56,7 +56,7 @@ function contains(nome) {
 }
 
 const vacinas = [];
-$.getJSON("../descricao.json", function (dados) {
+$.getJSON("dados/descricao.json", function (dados) {
 
   dados.shift(); // remover Calendário do SUS
   dados.shift(); // remover header
