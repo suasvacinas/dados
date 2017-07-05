@@ -53,7 +53,7 @@
     },
 
     {
-      "chave": "minha-filho",
+      "chave": "meu-filho",
       "descricao": "Qual a idade da sua filho?",
       "subOpcoes": [
         {"tipo": "opcao", "titulo": "Até 4 meses", "chave": "filho-ate-4-meses"},
