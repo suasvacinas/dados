@@ -218,5 +218,387 @@
         {"nome": "Dengue",                      "dose": "3 doses com intervalo de 6 meses entre cada uma", "fonte": "SBIM/SBP"}
       ]
     }
+  ],
+  "descricoes-vacinas": [
+    {
+      "nomevacina": "BCG",
+      "descricao": {
+        "texto": "Previne as formas graves da tuberculose (miliar e meníngea)",
+        "fonte": "SUS"
+      },
+      "redepublica": {
+        "texto": "-",
+        "fonte": "SUS"
+      },
+      "variacao": {
+        "texto": "Não há variação da vacina da rede pública.",
+        "fonte": "SUS"
+      },
+      "comentarios": {
+        "texto": "Deverá ser aplicada o mais precocemente possível, de preferência ainda na maternidade, em recém-nascidos com peso maior ou igual a 2.000 g. Em caso de suspeita de imunodefciência ou RN s cujas mães fizeram uso de biológicos durante a gestaçã o, a vacina pode estar contraindicada.",
+        "fonte": "SBIM/SBP"
+      }
+    },
+    {
+      "nomevacina": "Hepatite B",
+      "descricao": {
+        "texto": "Previne a infecção causadoa pelo vírus da hepatite B",
+        "fonte": "SUS"
+      },
+      "redepublica": {
+        "texto": "-",
+        "fonte": "SUS"
+      },
+      "variacao": {
+        "texto": "Não há variação da vacina da rede pública.",
+        "fonte": "SUS"
+      },
+      "comentarios": {
+        "texto": "a) Aplicar a primeira dose nas primeiras 12 horas de vida. b) Não elimina a necessidade de adoção do esquema de doses da vacina combinada (Penta ou Hexavalente).",
+        "fonte": "SBIM/SBP"
+      }
+    },
+    {
+      "nomevacina": "Penta/DTP",
+      "descricao": {
+        "texto": "Protege contra difteria, tétano e Pertussis (Tríplice bacteriana: coqueluche, hepatite B e as infecções causadas pela bactéria Haemophilus influenza tipo b)",
+        "fonte": "SUS"
+      },
+      "redepublica": {
+        "texto": "DTPw - é feita a partir de céluas inteiras da bactéria.",
+        "fonte": "SUS"
+      },
+      "variacao": {
+        "texto": "DTPa - é acelular, ou seja, não é feita com células inteiras, mas sim com proteínas. “Ela é uma vacina mais purificada, só contém o que realmente é necessário para proteger o ser humano e por isso as chances de ocorrerem eventos adversos são menos frequentes e intensas”, explica a pediatra Isabella Ballalai, presidente da Sociedade Brasileira de Imunizações (SBIm). Caso seu bebê tenha tomada uma dose da DTPw, que é oferecida na rede pública, e tenha apresentado febre alta por um tempo prolongado e outras reações adversas é recomendado passar a oferecer a DTPa.",
+        "fonte": "SUS"
+      },
+      "comentarios": {
+        "texto": "O uso da vacina DTPa é preferível ao da DTPw, pois os eventos adversos associados com sua administração são menos frequentes e intensos.",
+        "fonte": "SBIM/SBP"
+      }
+    },
+    {
+      "nomevacina": "VIP/VOP",
+      "descricao": {
+        "texto": "VIP (Vacina Inativada poliomielite) /VOP (Vacina Oral poliomielite) - Protegem contra poliomielite",
+        "fonte": "SUS"
+      },
+      "redepublica": {
+        "texto": "VIP 3 doses e VOP em reforços",
+        "fonte": "SUS"
+      },
+      "variacao": {
+        "texto": "Somente pode ser administrada se tomou DTPa e dTpa",
+        "fonte": "SUS"
+      },
+      "comentarios": {
+        "texto": "Recomenda-se que, idealmente, todas as doses sejam com a VIP (até mesmo em reforços). Não deve ser utilizada VOP em crianças hospitalizadas e imunodeficientes.",
+        "fonte": "SBIM/SBP"
+      }
+    },
+    {
+      "nomevacina": "Pneumocócia (conjugada)",
+      "descricao": {
+        "texto": "Previne infecções invasivas (septicemia, meningite, pneumonia e bacteriana) e otite média aguda (OMA), causadas pelo Streptococus pneumoniae",
+        "fonte": "SUS"
+      },
+      "redepublica": {
+        "texto": "VPC10 - protege contra 10 subtipos de pneumococos.",
+        "fonte": "SUS"
+      },
+      "variacao": {
+        "texto": "VPC13 - protege contra 13 subtipos de pneumococos",
+        "fonte": "SUS"
+      },
+      "comentarios": {
+        "texto": "A recomendação da VP13 visa ampliar a proteção e, portanto, quando possível, deve ser usada inclusive para as doses da primovacinação. No entanto, quando isso não é possível ou crianças menores de 6 anos com esquema completo ou incompleto de VPC10 podem se beneficiar com dose(s) adicional(is) de VPC13, respeitando-se o intervalo mínimo de dois meses da dose anterior.",
+        "fonte": "SBIM/SBP"
+      }
+    },
+    {
+      "nomevacina": "Rotavírus Humano",
+      "descricao": {
+        "texto": "Protege contra as complicações decorrentes da infecção pelo rotavírus",
+        "fonte": "SUS"
+      },
+      "redepublica": {
+        "texto": "Monovalente - protege contra um sorotipo de rotavírus, mas oferece proteção cruzada contra outro sorotipo.",
+        "fonte": "SUS"
+      },
+      "variacao": {
+        "texto": "Pentavalente - oferece imunidade contra 5 sorotipos diferentes de rotavírus. Bebes que iniciam a vacinação com uma determinada vacina devem idealmente terminar o esquema vacinal com o mesmo produto.",
+        "fonte": "SUS"
+      },
+      "comentarios": {
+        "texto": "Para vacina rotavírus pentavalente é indicada uma terceira dose aos 6 meses de idade. O intervalo mínimo entre as doses é de 30 dias. Se a criança cuspir, regurgitar ou vomitar após a vacinação, não repetir a dose. Não utilizar em crianças hospitalizadas. Em caso de suspeita de imunodefciência ou RN s cujas mães fizeram uso de biológicos durante a gestação, a vacina pode estar contraindicada e seu uso deve ser avaliado pelo médico",
+        "fonte": "SBIM/SBP"
+      }
+    },
+    {
+      "nomevacina": "Meningocócica C (conjugada)",
+      "descricao": {
+        "texto": "Previne a doença sistêmica causada pela Neisseria meningitidis do sorogrupo C",
+        "fonte": "SUS"
+      },
+      "redepublica": {
+        "texto": "MenC - previne contra o tipo C",
+        "fonte": "SUS"
+      },
+      "variacao": {
+        "texto": "MenACWY - previne contra os tipos ACWY",
+        "fonte": "SUS"
+      },
+      "comentarios": {
+        "texto": "Sempre que possível, preferir a vacina menACWY, inclusive para os reforços de crianças previamente vacinadas com menC. Crianças com vacinação completa ou incompleta com menC podem se beneficiar com o uso da vacina menACWY, com o objetivo de ampliar a proteção. Respeitar o intervalo mínimo de dois meses da última dose de menC.",
+        "fonte": "SBIM/SBP"
+      }
+    },
+    {
+      "nomevacina": "Febre Amarela",
+      "descricao": {
+        "texto": "Protege contra a febre amarela",
+        "fonte": "SUS"
+      },
+      "redepublica": {
+        "texto": "-",
+        "fonte": "SUS"
+      },
+      "variacao": {
+        "texto": "Não há variação da vacina da rede pública.",
+        "fonte": "SUS"
+      },
+      "comentarios": {
+        "texto": "Pode ser recomendada também para atender a exigências sanitárias de determinadas viagens internacionais, devendo a vacinação ser feita até 10 dias antes de viagens. Recomenda- se que crianças menores de 2 anos de idade não recebam as vacinas febre amarela e tríplice viral no mesmo dia. Nesses casos, e sempre que possível, respeitar intervalo de 30 dias entre as doses. Contraindicada para imunodeprimidos; mas se os riscos de adquirir a doença superarem os riscos potenciais da vacinação, o médico deverá avaliar sua utilização.",
+        "fonte": "SBIM/SBP"
+      }
+    },
+    {
+      "nomevacina": "Hepatite A",
+      "descricao": {
+        "texto": "Previne a infecção do fígado causado pelo vírus da hepatite A",
+        "fonte": "SUS"
+      },
+      "redepublica": {
+        "texto": "-",
+        "fonte": "SUS"
+      },
+      "variacao": {
+        "texto": "Não há variação da vacina da rede pública.",
+        "fonte": "SUS"
+      },
+      "comentarios": {
+        "texto": "",
+        "fonte": "SBIM/SBP"
+      }
+    },
+    {
+      "nomevacina": "Tríplice Viral (SCR)",
+      "descricao": {
+        "texto": "Protege contra sarampo, caxumba e rubéola",
+        "fonte": "SUS"
+      },
+      "redepublica": {
+        "texto": "-",
+        "fonte": "SUS"
+      },
+      "variacao": {
+        "texto": "Não há variação da vacina da rede pública.",
+        "fonte": "SUS"
+      },
+      "comentarios": {
+        "texto": "Em situaçã o de risco para o sarampo – por exemplo, surto ou exposiçã o domiciliar – a primeira dose pode ser aplicada a partir de 6 meses de idade. Nesses casos, a aplicaçã o de mais duas doses após a idade de 1 ano ainda será necessária.",
+        "fonte": "SBIM/SBP"
+      }
+    },
+    {
+      "nomevacina": "Tetra Viral (SCRV)",
+      "descricao": {
+        "texto": "Protege contra sarampo, caxumba, rubéola e varicela.",
+        "fonte": "SUS"
+      },
+      "redepublica": {
+        "texto": "-",
+        "fonte": "SUS"
+      },
+      "variacao": {
+        "texto": "Não há variação da vacina da rede pública.",
+        "fonte": "SUS"
+      },
+      "comentarios": {
+        "texto": "Aos 12 meses de idade: devem ser feitas, na mesma visita, as primeiras doses das vacinas tríplice viral (SCR) e varicela, em administrações separadas, ou a vacina tetraviral (SCRV). A vacina SCRV se mostrou associada a uma maior frequência de febre em lactentes que receberam a primeira dose com esta vacina, quando comparados com os que recebem as vacinas varicela e tríplice viral em injeções separadas. Aos 15 meses de idade deverá ser feita a segunda dose, preferencialmente com a vacina SCRV, com intervalo mínimo de três meses da última dose de varicela e SCR ou SCRV. Em situações de risco como, por exemplo, surtos ou exposição domiciliar ao sarampo, é possível vacinar crianças imunocompetentes de 6 a 12 meses com a vacina SCR. Em casos de surtos ou contato íntimo com caso de varicela, a vacina varicela pode ser utilizada a partir de 9 meses de vida. Nesses casos, doses aplicadas antes dos 12 meses de idade não são consideradas válidas, e a aplicação de mais duas doses após a idade de um ano é necessária.",
+        "fonte": "SBIM/SBP"
+      }
+    },
+    {
+      "nomevacina": "Influenza (gripe)",
+      "descricao": {
+        "texto": "-",
+        "fonte": "SUS"
+      },
+      "redepublica": {
+        "texto": "3V",
+        "fonte": "SUS"
+      },
+      "variacao": {
+        "texto": "4V - possui maior cobertura das cepas circulantes que a 3V. Indicação reimunização anual, independente da idade.",
+        "fonte": "SUS"
+      },
+      "comentarios": {
+        "texto": "Recomendada para todas as crianças a partir dos 6 meses de idade. Quando administrada pela primeira vez em crianças menores de 9 anos, aplicar duas doses com intervalo de 30 dias. Desde que disponível, a vacina influenza 4V é preferível à vacina influenza 3V, por conferir maior cobertura das cepas circulantes. Na impossibilidade de uso da vacina 4V, utilizar a vacina 3V. A vacina deve ser feita anualmente e, como a influenza é uma doença sazonal, a vacina deve ser aplicada antes do período de maior circulação do vírus.",
+        "fonte": "SBIM/SBP"
+      }
+    },
+    {
+      "nomevacina": "HPV",
+      "descricao": {
+        "texto": "Protege contra o HPV (Papilomavírus humano)",
+        "fonte": "SUS"
+      },
+      "redepublica": {
+        "texto": "-",
+        "fonte": "SUS"
+      },
+      "variacao": {
+        "texto": "Não há variação da vacina da rede pública.",
+        "fonte": "SUS"
+      },
+      "comentarios": {
+        "texto": "HPV4, licenciada para ambos os sexos; e HPV2, licenciada apenas para o sexo feminino.",
+        "fonte": "SBIM/SBP"
+      }
+    },
+    {
+      "nomevacina": "Meningocócica B",
+      "descricao": {
+        "texto": "Protege contra doença meningocócica invasiva (meningite, meningococcemia) causada pelo meningococo do tipo B.",
+        "fonte": "SBIM/SBP"
+      },
+      "redepublica": {
+        "texto": "Não disponível na rede pública",
+        "fonte": "SBIM/SBP"
+      },
+      "variacao": {
+        "texto": "Somente na rede privada",
+        "fonte": "SBIM/SBP"
+      },
+      "comentarios": {
+        "texto": "-",
+        "fonte": "SBIM/SBP"
+      }
+    },
+    {
+      "nomevacina": "Dengue",
+      "descricao": {
+        "texto": "Previne contra 4 sorotipos de dengue. Permitida apenas a partir de 9 anos",
+        "fonte": "SBIM/SBP"
+      },
+      "redepublica": {
+        "texto": "Não disponível na rede pública",
+        "fonte": "SBIM/SBP"
+      },
+      "variacao": {
+        "texto": "Somente na rede privada",
+        "fonte": "SBIM/SBP"
+      },
+      "comentarios": {
+        "texto": "A vacina dengue foi recentemente licenciada em nosso país no esquema de três doses com intervalo de 6 meses entre cada uma delas. É recomendada rotineiramente para crianças e adolescentes a partir de 9 anos até no máximo 45 anos de idade, em regiões endêmicas. Está contraindicada para gestantes, mulheres que amamentam e portadores de imunodeficiências. A vacina não deve ser administrada simultaneamente com outras vacinas do calendário.",
+        "fonte": "SBIM/SBP"
+      }
+    },
+    {
+      "nomevacina": "Varicela (catapora)",
+      "descricao": {
+        "texto": "-",
+        "fonte": "SBIM/SBP"
+      },
+      "redepublica": {
+        "texto": "Na rede pública disponível na tetra viral",
+        "fonte": "SBIM/SBP"
+      },
+      "variacao": {
+        "texto": "-",
+        "fonte": "SBIM/SBP"
+      },
+      "comentarios": {
+        "texto": "A vacina SCRV se mostrou associada a uma maior frequência de febre em lactentes que receberam a primeira dose com esta vacina, quando comparados com os que recebem as vacinas varicela e tríplice viral em injeções separadas. Em casos de surtos ou contato íntimo com caso de varicela, a vacina varicela pode ser utilizada a partir de 9 meses de vida.",
+        "fonte": "SBIM/SBP"
+      }
+    },
+    {
+      "nomevacina": "Triplice bacteriana acelular do tipo adulto",
+      "descricao": {
+        "texto": "(Tríplice bacteriana: coqueluche, hepatite B e as infecções causadas pela bactéria Haemophilus influenza tipo b)",
+        "fonte": "SBIM/SBP"
+      },
+      "redepublica": {
+        "texto": "Na rede pública disponível apenas as doses da infância, incluída na Penta/DTP",
+        "fonte": "SBIM/SBP"
+      },
+      "variacao": {
+        "texto": "Indicada como reforço a cada dez anos.",
+        "fonte": "SBIM/SBP"
+      },
+      "comentarios": {
+        "texto": "-",
+        "fonte": "SBIM/SBP"
+      }
+    },
+    {
+      "nomevacina": "dT",
+      "descricao": {
+        "texto": "Protege contra difteria e tétano",
+        "fonte": "SBIM/SBP"
+      },
+      "redepublica": {
+        "texto": "Na rede pública disponível apenas as doses da infância, incluída na Penta/DTP",
+        "fonte": "SBIM/SBP"
+      },
+      "variacao": {
+        "texto": "Indicada como reforço a cada dez anos.",
+        "fonte": "SBIM/SBP"
+      },
+      "comentarios": {
+        "texto": "Acho que só entra em observações. Não incluí no calendário final.",
+        "fonte": "SBIM/SBP"
+      }
+    },
+    {
+      "nomevacina": "Hexavalente acelular",
+      "descricao": {
+        "texto": "Protege contra difteria, tétano, coqueluche, hepatite B, as infecções causadas pela bactéria Haemophilus influenza tipo b e também poliomielite",
+        "fonte": "SBIM/SBP"
+      },
+      "redepublica": {
+        "texto": "-",
+        "fonte": "SBIM/SBP"
+      },
+      "variacao": {
+        "texto": "-",
+        "fonte": "SBIM/SBP"
+      },
+      "comentarios": {
+        "texto": "Substitui e segue esquema de doses da Penta/DTP.",
+        "fonte": "SBIM/SBP"
+      }
+    },
+    {
+      "nomevacina": "Hib",
+      "descricao": {
+        "texto": "Haemophilus influenzae B: Protege doenças infecciosas e complicações causas pela bactéria, como pneumonia, dor de ouvido, inflamação na epiglote, meningite, inflamação nas articulações, entre outros.",
+        "fonte": "SBIM/SBP"
+      },
+      "redepublica": {
+        "texto": "Na rede pública está inclusa na Penta. Na rede privada pode ser dada individualmente",
+        "fonte": "SBIM/SBP"
+      },
+      "variacao": {
+        "texto": "-",
+        "fonte": "SBIM/SBP"
+      },
+      "comentarios": {
+        "texto": "Se a criança tiver sido imunizada apenas pela vacina Tríplice DTP deve ser completada a imunização com a vacina Hib individualmente em 4 doses. Em caso de imunização com Penta DTP é dispensada sua aplicação.",
+        "fonte": "SBIM/SBP"
+      }
+    }
   ]
 }
