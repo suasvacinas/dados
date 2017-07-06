@@ -223,7 +223,7 @@
     {
       "nomevacina": "BCG",
       "descricao": {
-        "texto": "Previne as formas graves da tuberculose (miliar e meníngea)",
+        "texto": "Previne as formas graves da tuberculose (miliar e meníngea).",
         "fonte": "SUS"
       },
       "redepublica": {
@@ -235,14 +235,14 @@
         "fonte": "SUS"
       },
       "comentarios": {
-        "texto": "Deverá ser aplicada o mais precocemente possível, de preferência ainda na maternidade, em recém-nascidos com peso maior ou igual a 2.000 g. Em caso de suspeita de imunodefciência ou RN s cujas mães fizeram uso de biológicos durante a gestaçã o, a vacina pode estar contraindicada.",
+        "texto": "Deverá ser aplicada o mais precocemente possível, de preferência ainda na maternidade, em recém-nascidos com peso maior ou igual a 2.000 g. Em caso de suspeita de imunodefciência ou RN s cujas mães fizeram uso de biológicos durante a gestação, a vacina pode estar contraindicada.",
         "fonte": "SBIM/SBP"
       }
     },
     {
       "nomevacina": "Hepatite B",
       "descricao": {
-        "texto": "Previne a infecção causadoa pelo vírus da hepatite B",
+        "texto": "Previne a infecção causadoa pelo vírus da hepatite B.",
         "fonte": "SUS"
       },
       "redepublica": {
@@ -254,14 +254,14 @@
         "fonte": "SUS"
       },
       "comentarios": {
-        "texto": "a) Aplicar a primeira dose nas primeiras 12 horas de vida. b) Não elimina a necessidade de adoção do esquema de doses da vacina combinada (Penta ou Hexavalente).",
+        "texto": "a) Aplicar a primeira dose nas primeiras 12 horas de vida.\nb) Não elimina a necessidade de adoção do esquema de doses da vacina combinada (Penta ou Hexavalente).",
         "fonte": "SBIM/SBP"
       }
     },
     {
       "nomevacina": "Penta/DTP",
       "descricao": {
-        "texto": "Protege contra difteria, tétano e Pertussis (Tríplice bacteriana: coqueluche, hepatite B e as infecções causadas pela bactéria Haemophilus influenza tipo b)",
+        "texto": "Protege contra difteria, tétano e Pertussis (Tríplice bacteriana: coqueluche, hepatite B e as infecções causadas pela bactéria Haemophilus influenza tipo b).",
         "fonte": "SUS"
       },
       "redepublica": {
@@ -269,7 +269,7 @@
         "fonte": "SUS"
       },
       "variacao": {
-        "texto": "DTPa - é acelular, ou seja, não é feita com células inteiras, mas sim com proteínas. “Ela é uma vacina mais purificada, só contém o que realmente é necessário para proteger o ser humano e por isso as chances de ocorrerem eventos adversos são menos frequentes e intensas”, explica a pediatra Isabella Ballalai, presidente da Sociedade Brasileira de Imunizações (SBIm). Caso seu bebê tenha tomada uma dose da DTPw, que é oferecida na rede pública, e tenha apresentado febre alta por um tempo prolongado e outras reações adversas é recomendado passar a oferecer a DTPa.",
+        "texto": "DTPa - é acelular, ou seja, não é feita com células inteiras, mas sim com proteínas. \"Ela é uma vacina mais purificada, só contém o que realmente é necessário para proteger o ser humano e por isso as chances de ocorrerem eventos adversos são menos frequentes e intensas\", explica a pediatra Isabella Ballalai, presidente da Sociedade Brasileira de Imunizações (SBIm). Caso seu bebê tenha tomada uma dose da DTPw, que é oferecida na rede pública, e tenha apresentado febre alta por um tempo prolongado e outras reações adversas é recomendado passar a oferecer a DTPa.",
         "fonte": "SUS"
       },
       "comentarios": {
@@ -280,15 +280,15 @@
     {
       "nomevacina": "VIP/VOP",
       "descricao": {
-        "texto": "VIP (Vacina Inativada poliomielite) /VOP (Vacina Oral poliomielite) - Protegem contra poliomielite",
+        "texto": "VIP (Vacina Inativada poliomielite) /VOP (Vacina Oral poliomielite) - Protegem contra poliomielite.",
         "fonte": "SUS"
       },
       "redepublica": {
-        "texto": "VIP 3 doses e VOP em reforços",
+        "texto": "VIP 3 doses e VOP em reforços.",
         "fonte": "SUS"
       },
       "variacao": {
-        "texto": "Somente pode ser administrada se tomou DTPa e dTpa",
+        "texto": "Somente pode ser administrada se tomou DTPa e dTpa.",
         "fonte": "SUS"
       },
       "comentarios": {
@@ -299,7 +299,7 @@
     {
       "nomevacina": "Pneumocócia (conjugada)",
       "descricao": {
-        "texto": "Previne infecções invasivas (septicemia, meningite, pneumonia e bacteriana) e otite média aguda (OMA), causadas pelo Streptococus pneumoniae",
+        "texto": "Previne infecções invasivas (septicemia, meningite, pneumonia e bacteriana) e otite média aguda (OMA), causadas pelo Streptococus pneumoniae.",
         "fonte": "SUS"
       },
       "redepublica": {
@@ -307,7 +307,7 @@
         "fonte": "SUS"
       },
       "variacao": {
-        "texto": "VPC13 - protege contra 13 subtipos de pneumococos",
+        "texto": "VPC13 - protege contra 13 subtipos de pneumococos.",
         "fonte": "SUS"
       },
       "comentarios": {
@@ -318,7 +318,7 @@
     {
       "nomevacina": "Rotavírus Humano",
       "descricao": {
-        "texto": "Protege contra as complicações decorrentes da infecção pelo rotavírus",
+        "texto": "Protege contra as complicações decorrentes da infecção pelo rotavírus.",
         "fonte": "SUS"
       },
       "redepublica": {
@@ -337,15 +337,15 @@
     {
       "nomevacina": "Meningocócica C (conjugada)",
       "descricao": {
-        "texto": "Previne a doença sistêmica causada pela Neisseria meningitidis do sorogrupo C",
+        "texto": "Previne a doença sistêmica causada pela Neisseria meningitidis do sorogrupo C.",
         "fonte": "SUS"
       },
       "redepublica": {
-        "texto": "MenC - previne contra o tipo C",
+        "texto": "MenC - previne contra o tipo C.",
         "fonte": "SUS"
       },
       "variacao": {
-        "texto": "MenACWY - previne contra os tipos ACWY",
+        "texto": "MenACWY - previne contra os tipos ACWY.",
         "fonte": "SUS"
       },
       "comentarios": {
@@ -356,7 +356,7 @@
     {
       "nomevacina": "Febre Amarela",
       "descricao": {
-        "texto": "Protege contra a febre amarela",
+        "texto": "Protege contra a febre amarela.",
         "fonte": "SUS"
       },
       "redepublica": {
@@ -375,7 +375,7 @@
     {
       "nomevacina": "Hepatite A",
       "descricao": {
-        "texto": "Previne a infecção do fígado causado pelo vírus da hepatite A",
+        "texto": "Previne a infecção do fígado causado pelo vírus da hepatite A.",
         "fonte": "SUS"
       },
       "redepublica": {
@@ -387,14 +387,14 @@
         "fonte": "SUS"
       },
       "comentarios": {
-        "texto": "",
+        "texto": "-",
         "fonte": "SBIM/SBP"
       }
     },
     {
       "nomevacina": "Tríplice Viral (SCR)",
       "descricao": {
-        "texto": "Protege contra sarampo, caxumba e rubéola",
+        "texto": "Protege contra sarampo, caxumba e rubéola.",
         "fonte": "SUS"
       },
       "redepublica": {
@@ -451,7 +451,7 @@
     {
       "nomevacina": "HPV",
       "descricao": {
-        "texto": "Protege contra o HPV (Papilomavírus humano)",
+        "texto": "Protege contra o HPV (Papilomavírus humano).",
         "fonte": "SUS"
       },
       "redepublica": {
@@ -474,11 +474,11 @@
         "fonte": "SBIM/SBP"
       },
       "redepublica": {
-        "texto": "Não disponível na rede pública",
+        "texto": "Não disponível na rede pública.",
         "fonte": "SBIM/SBP"
       },
       "variacao": {
-        "texto": "Somente na rede privada",
+        "texto": "Somente na rede privada.",
         "fonte": "SBIM/SBP"
       },
       "comentarios": {
@@ -489,15 +489,15 @@
     {
       "nomevacina": "Dengue",
       "descricao": {
-        "texto": "Previne contra 4 sorotipos de dengue. Permitida apenas a partir de 9 anos",
+        "texto": "Previne contra 4 sorotipos de dengue. Permitida apenas a partir de 9 anos.",
         "fonte": "SBIM/SBP"
       },
       "redepublica": {
-        "texto": "Não disponível na rede pública",
+        "texto": "Não disponível na rede pública.",
         "fonte": "SBIM/SBP"
       },
       "variacao": {
-        "texto": "Somente na rede privada",
+        "texto": "Somente na rede privada.",
         "fonte": "SBIM/SBP"
       },
       "comentarios": {
@@ -512,7 +512,7 @@
         "fonte": "SBIM/SBP"
       },
       "redepublica": {
-        "texto": "Na rede pública disponível na tetra viral",
+        "texto": "Na rede pública disponível na tetra viral.",
         "fonte": "SBIM/SBP"
       },
       "variacao": {
@@ -527,11 +527,11 @@
     {
       "nomevacina": "Triplice bacteriana acelular do tipo adulto",
       "descricao": {
-        "texto": "(Tríplice bacteriana: coqueluche, hepatite B e as infecções causadas pela bactéria Haemophilus influenza tipo b)",
+        "texto": "(Tríplice bacteriana: coqueluche, hepatite B e as infecções causadas pela bactéria Haemophilus influenza tipo b).",
         "fonte": "SBIM/SBP"
       },
       "redepublica": {
-        "texto": "Na rede pública disponível apenas as doses da infância, incluída na Penta/DTP",
+        "texto": "Na rede pública disponível apenas as doses da infância, incluída na Penta/DTP.",
         "fonte": "SBIM/SBP"
       },
       "variacao": {
@@ -546,11 +546,11 @@
     {
       "nomevacina": "dT",
       "descricao": {
-        "texto": "Protege contra difteria e tétano",
+        "texto": "Protege contra difteria e tétano.",
         "fonte": "SBIM/SBP"
       },
       "redepublica": {
-        "texto": "Na rede pública disponível apenas as doses da infância, incluída na Penta/DTP",
+        "texto": "Na rede pública disponível apenas as doses da infância, incluída na Penta/DTP.",
         "fonte": "SBIM/SBP"
       },
       "variacao": {
@@ -565,7 +565,7 @@
     {
       "nomevacina": "Hexavalente acelular",
       "descricao": {
-        "texto": "Protege contra difteria, tétano, coqueluche, hepatite B, as infecções causadas pela bactéria Haemophilus influenza tipo b e também poliomielite",
+        "texto": "Protege contra difteria, tétano, coqueluche, hepatite B, as infecções causadas pela bactéria Haemophilus influenza tipo b e também poliomielite.",
         "fonte": "SBIM/SBP"
       },
       "redepublica": {
