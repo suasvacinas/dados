@@ -1,5 +1,4 @@
-{
-  "base": {
+ {
     "opcoes": [
       {
         "chave": "home",
@@ -433,7 +432,8 @@
         "comentarios": {
           "texto": "Aos 12 meses de idade: devem ser feitas, na mesma visita, as primeiras doses das vacinas tríplice viral (SCR) e varicela, em administrações separadas, ou a vacina tetraviral (SCRV). A vacina SCRV se mostrou associada a uma maior frequência de febre em lactentes que receberam a primeira dose com esta vacina, quando comparados com os que recebem as vacinas varicela e tríplice viral em injeções separadas. Aos 15 meses de idade deverá ser feita a segunda dose, preferencialmente com a vacina SCRV, com intervalo mínimo de três meses da última dose de varicela e SCR ou SCRV. Em situações de risco como, por exemplo, surtos ou exposição domiciliar ao sarampo, é possível vacinar crianças imunocompetentes de 6 a 12 meses com a vacina SCR. Em casos de surtos ou contato íntimo com caso de varicela, a vacina varicela pode ser utilizada a partir de 9 meses de vida. Nesses casos, doses aplicadas antes dos 12 meses de idade não são consideradas válidas, e a aplicação de mais duas doses após a idade de um ano é necessária.",
           "fonte": "SBIM/SBP"
-        }
+        },
+        "alergias": ["fdjgsd"        ]
       },
       {
         "nomevacina": "Influenza (gripe)",
@@ -608,4 +608,3 @@
       }
     ]
   }
-}
