@@ -688,6 +688,25 @@
       "doses": [
         {"invalido": true, "idade": "???",              "dose": "???",                          "fonte": "???"}
       ]
+    },
+    {
+      "comentarios" : {
+        "fonte" : "SBIM/SBP",
+        "texto" : "-"
+      },
+      "descricao" : {
+        "fonte" : "SBIM/SBP",
+        "texto" : "-"
+      },
+      "nomevacina" : "MeningoACWY",
+      "redepublica" : {
+        "fonte" : "SBIM/SBP",
+        "texto" : "-"
+      },
+      "variacao" : {
+        "fonte" : "SBIM/SBP",
+        "texto" : "Esta vacina é oferecida apenas na rede privada. Oferece cobertura para 4 tipos adicionais de meningococos causadores da meningite, os tipos A, C, W e Y."
+      }
     }
   ]
 }
