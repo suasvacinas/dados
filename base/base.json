@@ -144,122 +144,122 @@
       "idadeDose": "Ao nascer",
       "meses": 0,
       "doses": [
-        {"nome": "BCG",        "dose": "Dose única",     "fonte": "SUS"},
-        {"nome": "Hepatite B", "dose": "Dose ao nascer", "fonte": "SUS"}
+        {"idadedose": "Ao nascer", "nomevacina": "BCG",                        "dosevacina": "Dose única",        "fontedose": "SUS"},
+        {"idadedose": "Ao nascer", "nomevacina": "Hepatite B",                 "dosevacina": "Dose ao nascer",    "fontedose": "SUS"}
       ]
     },
     {
       "idadeDose": "2 meses",
       "meses": 2,
       "doses": [
-        {"nome": "Penta/DTP",               "dose": "1ª dose",           "fonte": "SUS"},
-        {"nome": "VIP/VOP",                 "dose": "1ª dose (com VIP)", "fonte": "SUS"},
-        {"nome": "Pneumocócia (conjugada)", "dose": "1ª dose",           "fonte": "SUS"},
-        {"nome": "Rotavírus Humano",        "dose": "1ª dose",           "fonte": "SUS"}
+        {"idadedose": "2 meses", "nomevacina": "Penta/DTP",                    "dosevacina": "1ª dose",           "fontedose": "SUS"},
+        {"idadedose": "2 meses", "nomevacina": "VIP/VOP",                      "dosevacina": "1ª dose (com VIP)", "fontedose": "SUS"},
+        {"idadedose": "2 meses", "nomevacina": "Pneumocócia (conjugada)",      "dosevacina": "1ª dose",           "fontedose": "SUS"},
+        {"idadedose": "2 meses", "nomevacina": "Rotavírus Humano",             "dosevacina": "1ª dose",           "fontedose": "SUS"}
       ]
     },
     {
       "idadeDose": "3 meses",
       "meses": 3,
       "doses": [
-        {"nome": "Meningocócica C (conjugada)", "dose": "1ª dose", "fonte": "SUS"},
-        {"nome": "Meningocócica B",             "dose": "1ª dose", "fonte": "SBIM/SBP"}
+        {"idadedose": "3 meses", "nomevacina": "Meningocócica C (conjugada)", "dosevacina": "1ª dose",           "fontedose": "SUS"},
+        {"idadedose": "3 meses", "nomevacina": "Meningocócica B",             "dosevacina": "1ª dose",           "fontedose": "SBIM/SBP"}
       ]
     },
     {
       "idadeDose": "4 meses",
       "meses": 4,
       "doses": [
-        {"nome": "Penta/DTP",                   "dose": "2ª dose",           "fonte": "SUS"},
-        {"nome": "VIP/VOP",                     "dose": "2ª dose (com VIP)", "fonte": "SUS"},
-        {"nome": "Pneumocócia (conjugada)",      "dose": "2ª dose",           "fonte": "SUS"},
-        {"nome": "Rotavírus Humano",            "dose": "2ª dose",           "fonte": "SUS"}
+        {"idadedose": "4 meses", "nomevacina": "Penta/DTP",                   "dosevacina": "2ª dose",           "fontedose": "SUS"},
+        {"idadedose": "4 meses", "nomevacina": "VIP/VOP",                     "dosevacina": "2ª dose (com VIP)", "fontedose": "SUS"},
+        {"idadedose": "4 meses", "nomevacina": "Pneumocócia (conjugada)",     "dosevacina": "2ª dose",           "fontedose": "SUS"},
+        {"idadedose": "4 meses", "nomevacina": "Rotavírus Humano",            "dosevacina": "2ª dose",           "fontedose": "SUS"}
       ]
     },
     {
       "idadeDose": "5 meses",
       "meses": 5,
       "doses": [
-        {"nome": "Meningocócica C (conjugada)", "dose": "2ª dose", "fonte": "SUS"},
-        {"nome": "Meningocócica B",             "dose": "2ª dose", "fonte": "SBIM/SBP"}
+        {"idadedose": "5 meses", "nomevacina": "Meningocócica C (conjugada)", "dosevacina": "2ª dose",           "fontedose": "SUS"},
+        {"idadedose": "5 meses", "nomevacina": "Meningocócica B",             "dosevacina": "2ª dose",           "fontedose": "SBIM/SBP"}
       ]
     },
     {
       "idadeDose": "6 meses",
       "meses": 6,
       "doses": [
-        {"nome": "Penta/DTP",                   "dose": "3ª dose",                          "fonte": "SUS"},
-        {"nome": "VIP/VOP",                     "dose": "3ª dose (com VIP)",                "fonte": "SUS"},
-        {"nome": "Pneumocócia (conjugada)",     "dose": "3ª dose",                          "fonte": "SBIM/SBP"},
-        {"nome": "Rotavírus Humano",            "dose": "3ª dose (apenas na pentavalente)", "fonte": "SBIM/SBP"},
-        {"nome": "Influenza (gripe)",           "dose": "1ª dose",                          "fonte": "SUS"}
+        {"idadedose": "6 meses", "nomevacina": "Penta/DTP",                   "dosevacina": "3ª dose",                          "fontedose": "SUS"},
+        {"idadedose": "6 meses", "nomevacina": "VIP/VOP",                     "dosevacina": "3ª dose (com VIP)",                "fontedose": "SUS"},
+        {"idadedose": "6 meses", "nomevacina": "Pneumocócia (conjugada)",     "dosevacina": "3ª dose",                          "fontedose": "SBIM/SBP"},
+        {"idadedose": "6 meses", "nomevacina": "Rotavírus Humano",            "dosevacina": "3ª dose (apenas na pentavalente)", "fontedose": "SBIM/SBP"},
+        {"idadedose": "6 meses", "nomevacina": "Influenza (gripe)",           "dosevacina": "1ª dose",                          "fontedose": "SUS"}
       ]
     },
     {
       "idadeDose": "7 meses",
       "meses": 7,
       "doses": [
-        {"nome": "Meningocócica C (conjugada)", "dose": "Reforço",                          "fonte": "SUS"},
-        {"nome": "Influenza (gripe)",           "dose": "Reforço",                          "fonte": "SUS"},
-        {"nome": "Meningocócica B",             "dose": "3ª dose",                          "fonte": "SBIM/SBP"}
+        {"idadedose": "7 meses", "nomevacina": "Meningocócica C (conjugada)", "dosevacina": "Reforço",                          "fontedose": "SUS"},
+        {"idadedose": "7 meses", "nomevacina": "Influenza (gripe)",           "dosevacina": "Reforço",                          "fontedose": "SUS"},
+        {"idadedose": "7 meses", "nomevacina": "Meningocócica B",             "dosevacina": "3ª dose",                          "fontedose": "SBIM/SBP"}
       ]
     },
     {
       "idadeDose": "9 meses",
       "meses": 9,
       "doses": [
-        {"nome": "Febre Amarela", "dose": "Dose única", "fonte": "SUS"}
+        {"idadedose": "9 meses", "nomevacina": "Febre Amarela",               "dosevacina": "Dose única",                       "fontedose": "SUS"}
       ]
     },
     {
       "idadeDose": "12 meses",
       "meses": 12,
       "doses": [
-        {"nome": "Pneumocócia (conjugada)",     "dose": "Reforço",                          "fonte": "SUS"},
-        {"nome": "Meningocócica C (conjugada)", "dose": "Reforço",                          "fonte": "SUS"},
-        {"nome": "Tríplice Viral (SCR)",        "dose": "1ª dose",                          "fonte": "SUS"},
-        {"nome": "Meningocócica B",             "dose": "Reforço",                          "fonte": "SBIM/SBP"}
+        {"idadedose": "12 meses", "nomevacina": "Pneumocócia (conjugada)",     "dosevacina": "Reforço",                          "fontedose": "SUS"},
+        {"idadedose": "12 meses", "nomevacina": "Meningocócica C (conjugada)", "dosevacina": "Reforço",                          "fontedose": "SUS"},
+        {"idadedose": "12 meses", "nomevacina": "Tríplice Viral (SCR)",        "dosevacina": "1ª dose",                          "fontedose": "SUS"},
+        {"idadedose": "12 meses", "nomevacina": "Meningocócica B",             "dosevacina": "Reforço",                          "fontedose": "SBIM/SBP"}
       ]
     },
     {
       "idadeDose": "15 meses",
       "meses": 15,
       "doses": [
-        {"nome": "Penta/DTP",                   "dose": "1° reforço (com DTP)",             "fonte": "SUS"},
-        {"nome": "VIP/VOP",                     "dose": "1° reforço (com VOP)",             "fonte": "SUS"},
-        {"nome": "Hepatite A",                  "dose": "Uma dose",                         "fonte": "SUS"},
-        {"nome": "Tetra viral",                 "dose": "Uma dose",                         "fonte": "SUS"}
+        {"idadedose": "15 meses", "nomevacina": "Penta/DTP",                   "dosevacina": "1° reforço (com DTP)",             "fontedose": "SUS"},
+        {"idadedose": "15 meses", "nomevacina": "VIP/VOP",                     "dosevacina": "1° reforço (com VOP)",             "fontedose": "SUS"},
+        {"idadedose": "15 meses", "nomevacina": "Hepatite A",                  "dosevacina": "Uma dose",                         "fontedose": "SUS"},
+        {"idadedose": "15 meses", "nomevacina": "Tetra viral",                 "dosevacina": "Uma dose",                         "fontedose": "SUS"}
       ]
     },
     {
       "idadeDose": "18 meses",
       "meses": 18,
       "doses": [
-        {"nome": "Hepatite A",                  "dose": "Reforço",                          "fonte": "SBIM/SBP"}
+        {"idadedose": "18 meses", "nomevacina": "Hepatite A",                  "dosevacina": "Reforço",                          "fontedose": "SBIM/SBP"}
       ]
     },
     {
       "idadeDose": "4 anos",
       "meses": 48,
       "doses": [
-        {"nome": "Penta/DTP",                   "dose": "2° reforço (com DTP)",             "fonte": "SUS"},
-        {"nome": "VIP/VOP",                     "dose": "2° reforço (com VOP)",             "fonte": "SUS"},
-        {"nome": "Influenza (gripe)",           "dose": "Reforço",                          "fonte": "SUS"}
+        {"idadedose": "4 anos", "nomevacina": "Penta/DTP",                   "dosevacina": "2° reforço (com DTP)",             "fontedose": "SUS"},
+        {"idadedose": "4 anos", "nomevacina": "VIP/VOP",                     "dosevacina": "2° reforço (com VOP)",             "fontedose": "SUS"},
+        {"idadedose": "4 anos", "nomevacina": "Influenza (gripe)",           "dosevacina": "Reforço",                          "fontedose": "SUS"}
       ]
     },
     {
       "idadeDose": "5 anos",
       "meses": 60,
       "doses": [
-        {"nome": "Meningocócica C (conjugada)", "dose": "Reforço",                          "fonte": "SBIM/SBP"}
+        {"idadedose": "5 anos", "nomevacina": "Meningocócica C (conjugada)", "dosevacina": "Reforço",                          "fontedose": "SBIM/SBP"}
       ]
     },
     {
       "idadeDose": "9 anos",
       "meses": 108,
       "doses": [
-        {"nome": "HPV",                         "dose": "2 doses",                          "fonte": "SUS"},
-        {"nome": "Dengue",                      "dose": "3 doses com intervalo de 6 meses entre cada uma", "fonte": "SBIM/SBP"}
+        {"idadedose": "9 anos", "nomevacina": "HPV",                         "dosevacina": "2 doses",                          "fontedose": "SUS"},
+        {"idadedose": "9 anos", "nomevacina": "Dengue",                      "dosevacina": "3 doses com intervalo de 6 meses entre cada uma", "fontedose": "SBIM/SBP"}
       ]
     }
   ],
