@@ -91,6 +91,48 @@
         {"tipo": "dose", "titulo": "5 anos", "meses": 60},
         {"tipo": "dose", "titulo": "9 anos ou mais", "meses": 108}
       ]
+    },
+
+    {
+      "chave": "meu-familiar",
+      "descricao": "Qual a idade do seu familiar?",
+      "subOpcoes": [
+        {"tipo": "opcao", "titulo": "Até 4 meses", "chave": "familiar-ate-4-meses"},
+        {"tipo": "opcao", "titulo": "De 5 a 12 meses", "chave": "familiar-5-12-meses"},
+        {"tipo": "opcao", "titulo": "Mais de 12 meses", "chave": "familiar-mais-12-meses"}
+      ]
+    },
+    {
+      "chave": "familiar-ate-4-meses",
+      "descricao": "Familiar de até 4 meses.\n Uma última pergunta: qual o período específico?",
+      "subOpcoes": [
+        {"tipo": "dose", "titulo": "Ao nascer", "meses": 0},
+        {"tipo": "dose", "titulo": "2 meses", "meses": 2},
+        {"tipo": "dose", "titulo": "3 meses", "meses": 3},
+        {"tipo": "dose", "titulo": "4 meses", "meses": 4}
+      ]
+    },
+    {
+      "chave": "familiar-5-12-meses",
+      "descricao": "Familiar de 5 a 12 meses.\n Uma última pergunta: qual o período específico?",
+      "subOpcoes": [
+        {"tipo": "dose", "titulo": "5 meses", "meses": 5},
+        {"tipo": "dose", "titulo": "6 meses", "meses": 6},
+        {"tipo": "dose", "titulo": "7 meses", "meses": 7},
+        {"tipo": "dose", "titulo": "9 meses", "meses": 9},
+        {"tipo": "dose", "titulo": "12 meses", "meses": 12}
+      ]
+    },
+    {
+      "chave": "familiar-mais-12-meses",
+      "descricao": "Familiar de mais de meses.\n Uma última pergunta: qual o período específico?",
+      "subOpcoes": [
+        {"tipo": "dose", "titulo": "Até 15 meses", "meses": 15},
+        {"tipo": "dose", "titulo": "18 meses", "meses": 18},
+        {"tipo": "dose", "titulo": "4 anos", "meses": 48},
+        {"tipo": "dose", "titulo": "5 anos", "meses": 60},
+        {"tipo": "dose", "titulo": "9 anos ou mais", "meses": 108}
+      ]
     }
   ],
 
