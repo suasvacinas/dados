@@ -41,7 +41,7 @@
     },
     {
       "chave": "filha-mais-12-meses",
-      "descricao": "Filha de mais de meses.\n Uma última pergunta: qual o período específico?",
+      "descricao": "Filha de mais de 12 meses.\n Uma última pergunta: qual o período específico?",
       "subOpcoes": [
         {"tipo": "dose", "titulo": "Até 15 meses", "meses": 15},
         {"tipo": "dose", "titulo": "18 meses", "meses": 18},
@@ -83,7 +83,7 @@
     },
     {
       "chave": "filho-mais-12-meses",
-      "descricao": "Filho de mais de meses.\n Uma última pergunta: qual o período específico?",
+      "descricao": "Filho de mais de 12 meses.\n Uma última pergunta: qual o período específico?",
       "subOpcoes": [
         {"tipo": "dose", "titulo": "Até 15 meses", "meses": 15},
         {"tipo": "dose", "titulo": "18 meses", "meses": 18},
@@ -125,7 +125,7 @@
     },
     {
       "chave": "familiar-mais-12-meses",
-      "descricao": "Familiar de mais de meses.\n Uma última pergunta: qual o período específico?",
+      "descricao": "Familiar de mais de 12 meses.\n Uma última pergunta: qual o período específico?",
       "subOpcoes": [
         {"tipo": "dose", "titulo": "Até 15 meses", "meses": 15},
         {"tipo": "dose", "titulo": "18 meses", "meses": 18},
