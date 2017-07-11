@@ -344,438 +344,6 @@
 			]
 		}
 	],
-	"doses": [
-		{
-			"idadeDose": "Ao nascer",
-			"meses": 0,
-			"doses": [
-				{
-					"chavedose": "bcg-0",
-					"nomevacina": "BCG",
-					"idadedosemeses": 0,
-					"idadedoseextenso": "Ao nascer",
-					"dosevacina": "Dose única",
-					"fontedose": "SUS"
-				},
-				{
-					"chavedose": "hepatite-b-0",
-					"nomevacina": "Hepatite B",
-					"idadedosemeses": 0,
-					"idadedoseextenso": "Ao nascer",
-					"dosevacina": "Dose ao nascer",
-					"fontedose": "SUS"
-				}
-			]
-		},
-		{
-			"idadeDose": "2 meses",
-			"meses": 2,
-			"doses": [
-				{
-					"chavedose": "penta-dtp-2",
-					"nomevacina": "Penta/DTP",
-					"idadedosemeses": 2,
-					"idadedoseextenso": "2 meses",
-					"dosevacina": "1ª dose",
-					"fontedose": "SUS"
-				},
-				{
-					"chavedose": "vip-vop-2",
-					"nomevacina": "VIP/VOP",
-					"idadedosemeses": 2,
-					"idadedoseextenso": "2 meses",
-					"dosevacina": "1ª dose (com VIP)",
-					"fontedose": "SUS"
-				},
-				{
-					"chavedose": "pneumococia-conjugada-2",
-					"nomevacina": "Pneumocócia (conjugada)",
-					"idadedosemeses": 2,
-					"idadedoseextenso": "2 meses",
-					"dosevacina": "1ª dose",
-					"fontedose": "SUS"
-				},
-				{
-					"chavedose": "rotavirus-humano-2",
-					"nomevacina": "Rotavírus Humano",
-					"idadedosemeses": 2,
-					"idadedoseextenso": "2 meses",
-					"dosevacina": "1ª dose",
-					"fontedose": "SUS"
-				}
-			]
-		},
-		{
-			"idadeDose": "3 meses",
-			"meses": 3,
-			"doses": [
-				{
-					"chavedose": "meningococica-c-conjugada-3",
-					"nomevacina": "Meningocócica C (conjugada)",
-					"idadedosemeses": 3,
-					"idadedoseextenso": "3 meses",
-					"dosevacina": "1ª dose",
-					"fontedose": "SUS"
-				},
-				{
-					"chavedose": "meningococica-b-3",
-					"nomevacina": "Meningocócica B",
-					"idadedosemeses": 3,
-					"idadedoseextenso": "3 meses",
-					"dosevacina": "1ª dose",
-					"fontedose": "SBIm/SBP"
-				}
-			]
-		},
-		{
-			"idadeDose": "4 meses",
-			"meses": 4,
-			"doses": [
-				{
-					"chavedose": "penta-dtp-4",
-					"nomevacina": "Penta/DTP",
-					"idadedosemeses": 4,
-					"idadedoseextenso": "4 meses",
-					"dosevacina": "2ª dose",
-					"fontedose": "SUS"
-				},
-				{
-					"chavedose": "vip-vop-4",
-					"nomevacina": "VIP/VOP",
-					"idadedosemeses": 4,
-					"idadedoseextenso": "4 meses",
-					"dosevacina": "2ª dose (com VIP)",
-					"fontedose": "SUS"
-				},
-				{
-					"chavedose": "pneumococia-conjugada-4",
-					"nomevacina": "Pneumocócia (conjugada)",
-					"idadedosemeses": 4,
-					"idadedoseextenso": "4 meses",
-					"dosevacina": "2ª dose",
-					"fontedose": "SUS"
-				},
-				{
-					"chavedose": "rotavirus-humano-4",
-					"nomevacina": "Rotavírus Humano",
-					"idadedosemeses": 4,
-					"idadedoseextenso": "4 meses",
-					"dosevacina": "2ª dose",
-					"fontedose": "SUS"
-				}
-			]
-		},
-		{
-			"idadeDose": "5 meses",
-			"meses": 5,
-			"doses": [
-				{
-					"chavedose": "meningococica-c-conjugada-5",
-					"nomevacina": "Meningocócica C (conjugada)",
-					"idadedosemeses": 5,
-					"idadedoseextenso": "5 meses",
-					"dosevacina": "2ª dose",
-					"fontedose": "SUS"
-				},
-				{
-					"chavedose": "meningococica-b-5",
-					"nomevacina": "Meningocócica B",
-					"idadedosemeses": 5,
-					"idadedoseextenso": "5 meses",
-					"dosevacina": "2ª dose",
-					"fontedose": "SBIm/SBP"
-				}
-			]
-		},
-		{
-			"idadeDose": "6 meses",
-			"meses": 6,
-			"doses": [
-				{
-					"chavedose": "penta-dtp-6",
-					"nomevacina": "Penta/DTP",
-					"idadedosemeses": 6,
-					"idadedoseextenso": "6 meses",
-					"dosevacina": "3ª dose",
-					"fontedose": "SUS"
-				},
-				{
-					"chavedose": "vip-vop-6",
-					"nomevacina": "VIP/VOP",
-					"idadedosemeses": 6,
-					"idadedoseextenso": "6 meses",
-					"dosevacina": "3ª dose (com VIP)",
-					"fontedose": "SUS"
-				},
-				{
-					"chavedose": "pneumococia-conjugada-6",
-					"nomevacina": "Pneumocócia (conjugada)",
-					"idadedosemeses": 6,
-					"idadedoseextenso": "6 meses",
-					"dosevacina": "3ª dose",
-					"fontedose": "SBIm/SBP"
-				},
-				{
-					"chavedose": "rotavirus-humano-6",
-					"nomevacina": "Rotavírus Humano",
-					"idadedosemeses": 6,
-					"idadedoseextenso": "6 meses",
-					"dosevacina": "3ª dose (apenas na pentavalente)",
-					"fontedose": "SBIm/SBP"
-				},
-				{
-					"chavedose": "influenza-gripe-6",
-					"nomevacina": "Influenza (gripe)",
-					"idadedosemeses": 6,
-					"idadedoseextenso": "6 meses",
-					"dosevacina": "1ª dose",
-					"fontedose": "SUS"
-				}
-			]
-		},
-		{
-			"idadeDose": "7 meses",
-			"meses": 7,
-			"doses": [
-				{
-					"chavedose": "meningococica-c-conjugada-7",
-					"nomevacina": "Meningocócica C (conjugada)",
-					"idadedosemeses": 7,
-					"idadedoseextenso": "7 meses",
-					"dosevacina": "Reforço",
-					"fontedose": "SUS"
-				},
-				{
-					"chavedose": "meningococica-b-7",
-					"nomevacina": "Meningocócica B",
-					"idadedosemeses": 7,
-					"idadedoseextenso": "7 meses",
-					"dosevacina": "3ª dose",
-					"fontedose": "SBIm/SBP"
-				},
-				{
-					"chavedose": "influenza-gripe-7",
-					"nomevacina": "Influenza (gripe)",
-					"idadedosemeses": 7,
-					"idadedoseextenso": "7 meses",
-					"dosevacina": "Reforço",
-					"fontedose": "SUS"
-				}
-			]
-		},
-		{
-			"idadeDose": "9 meses",
-			"meses": 9,
-			"doses": [
-				{
-					"chavedose": "febre-amarela-9",
-					"nomevacina": "Febre Amarela",
-					"idadedosemeses": 9,
-					"idadedoseextenso": "9 meses",
-					"dosevacina": "Dose única",
-					"fontedose": "SUS"
-				}
-			]
-		},
-		{
-			"idadeDose": "12 meses",
-			"meses": 12,
-			"doses": [
-				{
-					"chavedose": "pneumococia-conjugada-12",
-					"nomevacina": "Pneumocócia (conjugada)",
-					"idadedosemeses": 12,
-					"idadedoseextenso": "12 meses",
-					"dosevacina": "Reforço",
-					"fontedose": "SUS"
-				},
-				{
-					"chavedose": "meningococica-c-conjugada-12",
-					"nomevacina": "Meningocócica C (conjugada)",
-					"idadedosemeses": 12,
-					"idadedoseextenso": "12 meses",
-					"dosevacina": "Reforço",
-					"fontedose": "SUS"
-				},
-				{
-					"chavedose": "meningococica-b-12",
-					"nomevacina": "Meningocócica B",
-					"idadedosemeses": 12,
-					"idadedoseextenso": "12 meses",
-					"dosevacina": "Reforço",
-					"fontedose": "SBIm/SBP"
-				},
-				{
-					"chavedose": "triplice-viral-scr-12",
-					"nomevacina": "Tríplice Viral (SCR)",
-					"idadedosemeses": 12,
-					"idadedoseextenso": "12 meses",
-					"dosevacina": "1ª dose",
-					"fontedose": "SUS"
-				}
-			]
-		},
-		{
-			"idadeDose": "15 meses",
-			"meses": 15,
-			"doses": [
-				{
-					"chavedose": "penta-dtp-15",
-					"nomevacina": "Penta/DTP",
-					"idadedosemeses": 15,
-					"idadedoseextenso": "15 meses",
-					"dosevacina": "1° reforço (com DTP)",
-					"fontedose": "SUS"
-				},
-				{
-					"chavedose": "vip-vop-15",
-					"nomevacina": "VIP/VOP",
-					"idadedosemeses": 15,
-					"idadedoseextenso": "15 meses",
-					"dosevacina": "1° reforço (com VOP)",
-					"fontedose": "SUS"
-				},
-				{
-					"chavedose": "hepatite-a-15",
-					"nomevacina": "Hepatite A",
-					"idadedosemeses": 15,
-					"idadedoseextenso": "15 meses",
-					"dosevacina": "Uma dose",
-					"fontedose": "SUS"
-				},
-				{
-					"chavedose": "tetra-viral-15",
-					"nomevacina": "Tetra Viral (SCRV)",
-					"idadedosemeses": 15,
-					"idadedoseextenso": "15 meses",
-					"dosevacina": "Uma dose",
-					"fontedose": "SUS"
-				}
-			]
-		},
-		{
-			"idadeDose": "18 meses",
-			"meses": 18,
-			"doses": [
-				{
-					"chavedose": "hepatite-a-18",
-					"nomevacina": "Hepatite A",
-					"idadedosemeses": 18,
-					"idadedoseextenso": "18 meses",
-					"dosevacina": "Reforço",
-					"fontedose": "SBIm/SBP"
-				}
-			]
-		},
-		{
-			"idadeDose": "4 anos",
-			"meses": 48,
-			"doses": [
-				{
-					"chavedose": "penta-dtp-48",
-					"nomevacina": "Penta/DTP",
-					"idadedosemeses": 48,
-					"idadedoseextenso": "4 anos",
-					"dosevacina": "2° reforço (com DTP)",
-					"fontedose": "SUS"
-				},
-				{
-					"chavedose": "vip-vop-48",
-					"nomevacina": "VIP/VOP",
-					"idadedosemeses": 48,
-					"idadedoseextenso": "4 anos",
-					"dosevacina": "2° reforço (com VOP)",
-					"fontedose": "SUS"
-				},
-				{
-					"chavedose": "influenza-gripe-48",
-					"nomevacina": "Influenza (gripe)",
-					"idadedosemeses": 48,
-					"idadedoseextenso": "4 anos",
-					"dosevacina": "Reforço",
-					"fontedose": "SUS"
-				}
-			]
-		},
-		{
-			"idadeDose": "5 anos",
-			"meses": 60,
-			"doses": [
-				{
-					"chavedose": "meningococica-c-conjugada-60",
-					"nomevacina": "Meningocócica C (conjugada)",
-					"idadedosemeses": 60,
-					"idadedoseextenso": "5 anos",
-					"dosevacina": "Reforço",
-					"fontedose": "SBIm/SBP"
-				}
-			]
-		},
-		{
-			"idadeDose": "9 anos",
-			"meses": 108,
-			"doses": [
-				{
-					"chavedose": "hpv-108",
-					"nomevacina": "HPV",
-					"idadedosemeses": 108,
-					"idadedoseextenso": "9 anos",
-					"dosevacina": "2 doses",
-					"fontedose": "SUS"
-				},
-				{
-					"chavedose": "dengue-108",
-					"nomevacina": "Dengue",
-					"idadedosemeses": 108,
-					"idadedoseextenso": "9 anos",
-					"dosevacina": "3 doses com intervalo de 6 meses entre cada uma",
-					"fontedose": "SBIm/SBP"
-				}
-			]
-		},
-		{
-			"idadeDose": "10 a 19 anos",
-			"meses": 120,
-			"doses": [
-				{
-					"chavedose": "hepatite-b-120",
-					"nomevacina": "Hepatite B",
-					"idadedosemeses": 120,
-					"idadedoseextenso": "10 a 19 anos",
-					"dosevacina": "3 doses (a depender da situação vacinal)",
-					"fontedose": "SUS"
-				}
-			]
-		},
-		{
-			"idadeDose": "20 a 59 anos",
-			"meses": 240,
-			"doses": [
-				{
-					"chavedose": "hepatite-b-240",
-					"nomevacina": "Hepatite B",
-					"idadedosemeses": 240,
-					"idadedoseextenso": "20 a 59 anos",
-					"dosevacina": "3 doses (a depender da situação vacinal)",
-					"fontedose": "SUS"
-				}
-			]
-		},
-		{
-			"idadeDose": "60 anos ou mais",
-			"meses": 720,
-			"doses": [
-				{
-					"chavedose": "hepatite-b-720",
-					"nomevacina": "Hepatite B",
-					"idadedosemeses": 720,
-					"idadedoseextenso": "60 anos ou mais",
-					"dosevacina": "3 doses (a depender da situação vacinal)",
-					"fontedose": "SUS"
-				}
-			]
-		}
-	],
 	"descricoes-vacinas": [
 		{
 			"nomevacina": "BCG",
@@ -1208,7 +776,7 @@
 				"fonte": "SUS"
 			},
 			"comentarios": {
-				"texto": "Pode ser recomendada também para atender a exigências sanitárias de determinadas viagens internacionais, devendo a vacinação ser feita até 10 dias antes de viagens. Recomenda- se que crianças menores de 2 anos de idade não recebam as vacinas febre amarela e tríplice viral no mesmo dia. Nesses casos, e sempre que possível, respeitar intervalo de 30 dias entre as doses. Contraindicada para imunodeprimidos; mas se os riscos de adquirir a doença superarem os riscos potenciais da vacinação, o médico deverá avaliar sua utilização.",
+				"texto": "Pode ser recomendada também para atender a exigências sanitárias de determinadas viagens internacionais, devendo a vacinação ser feita até 10 dias antes de viagens. Recomenda-se que crianças menores de 2 anos de idade não recebam as vacinas febre amarela e tríplice viral no mesmo dia. Nesses casos, e sempre que possível, respeitar intervalo de 30 dias entre as doses. Contraindicada para imunodeprimidos; mas se os riscos de adquirir a doença superarem os riscos potenciais da vacinação, o médico deverá avaliar sua utilização.",
 				"fonte": "SBIm/SBP"
 			},
 			"doses": [
@@ -1217,7 +785,39 @@
 					"nomevacina": "Febre Amarela",
 					"idadedosemeses": 9,
 					"idadedoseextenso": "9 meses",
-					"dosevacina": "Dose única",
+					"dosevacina": "Uma dose",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "febre-amarela-48",
+					"nomevacina": "Febre Amarela",
+					"idadedosemeses": 48,
+					"idadedoseextenso": "4 anos",
+					"dosevacina": "Reforço",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "febre-amarela-120",
+					"nomevacina": "Febre Amarela",
+					"idadedosemeses": 120,
+					"idadedoseextenso": "10 a 19 anos",
+					"dosevacina": "Uma dose e um reforço, a depender da situação vacinal",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "febre-amarela-240",
+					"nomevacina": "Febre Amarela",
+					"idadedosemeses": 240,
+					"idadedoseextenso": "20 a 59 anos",
+					"dosevacina": "Uma dose e um reforço, a depender da situação vacinal",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "febre-amarela-720",
+					"nomevacina": "Febre Amarela",
+					"idadedosemeses": 720,
+					"idadedoseextenso": "60 anos ou mais",
+					"dosevacina": "Em situação de risco de contrair a doença, o médico deverá avaliar o benefício/risco da vacinação",
 					"fontedose": "SUS"
 				}
 			]
@@ -1538,6 +1138,470 @@
 				"fonte": "SBIm/SBP",
 				"texto": "Esta vacina é oferecida apenas na rede privada. Oferece cobertura para 4 tipos adicionais de meningococos causadores da meningite, os tipos A, C, W e Y."
 			}
+		}
+	],
+	"doses": [
+		{
+			"idadeDose": "Ao nascer",
+			"meses": 0,
+			"doses": [
+				{
+					"chavedose": "bcg-0",
+					"nomevacina": "BCG",
+					"idadedosemeses": 0,
+					"idadedoseextenso": "Ao nascer",
+					"dosevacina": "Dose única",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "hepatite-b-0",
+					"nomevacina": "Hepatite B",
+					"idadedosemeses": 0,
+					"idadedoseextenso": "Ao nascer",
+					"dosevacina": "Dose ao nascer",
+					"fontedose": "SUS"
+				}
+			]
+		},
+		{
+			"idadeDose": "2 meses",
+			"meses": 2,
+			"doses": [
+				{
+					"chavedose": "penta-dtp-2",
+					"nomevacina": "Penta/DTP",
+					"idadedosemeses": 2,
+					"idadedoseextenso": "2 meses",
+					"dosevacina": "1ª dose",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "vip-vop-2",
+					"nomevacina": "VIP/VOP",
+					"idadedosemeses": 2,
+					"idadedoseextenso": "2 meses",
+					"dosevacina": "1ª dose (com VIP)",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "pneumococia-conjugada-2",
+					"nomevacina": "Pneumocócia (conjugada)",
+					"idadedosemeses": 2,
+					"idadedoseextenso": "2 meses",
+					"dosevacina": "1ª dose",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "rotavirus-humano-2",
+					"nomevacina": "Rotavírus Humano",
+					"idadedosemeses": 2,
+					"idadedoseextenso": "2 meses",
+					"dosevacina": "1ª dose",
+					"fontedose": "SUS"
+				}
+			]
+		},
+		{
+			"idadeDose": "3 meses",
+			"meses": 3,
+			"doses": [
+				{
+					"chavedose": "meningococica-c-conjugada-3",
+					"nomevacina": "Meningocócica C (conjugada)",
+					"idadedosemeses": 3,
+					"idadedoseextenso": "3 meses",
+					"dosevacina": "1ª dose",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "meningococica-b-3",
+					"nomevacina": "Meningocócica B",
+					"idadedosemeses": 3,
+					"idadedoseextenso": "3 meses",
+					"dosevacina": "1ª dose",
+					"fontedose": "SBIm/SBP"
+				}
+			]
+		},
+		{
+			"idadeDose": "4 meses",
+			"meses": 4,
+			"doses": [
+				{
+					"chavedose": "penta-dtp-4",
+					"nomevacina": "Penta/DTP",
+					"idadedosemeses": 4,
+					"idadedoseextenso": "4 meses",
+					"dosevacina": "2ª dose",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "vip-vop-4",
+					"nomevacina": "VIP/VOP",
+					"idadedosemeses": 4,
+					"idadedoseextenso": "4 meses",
+					"dosevacina": "2ª dose (com VIP)",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "pneumococia-conjugada-4",
+					"nomevacina": "Pneumocócia (conjugada)",
+					"idadedosemeses": 4,
+					"idadedoseextenso": "4 meses",
+					"dosevacina": "2ª dose",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "rotavirus-humano-4",
+					"nomevacina": "Rotavírus Humano",
+					"idadedosemeses": 4,
+					"idadedoseextenso": "4 meses",
+					"dosevacina": "2ª dose",
+					"fontedose": "SUS"
+				}
+			]
+		},
+		{
+			"idadeDose": "5 meses",
+			"meses": 5,
+			"doses": [
+				{
+					"chavedose": "meningococica-c-conjugada-5",
+					"nomevacina": "Meningocócica C (conjugada)",
+					"idadedosemeses": 5,
+					"idadedoseextenso": "5 meses",
+					"dosevacina": "2ª dose",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "meningococica-b-5",
+					"nomevacina": "Meningocócica B",
+					"idadedosemeses": 5,
+					"idadedoseextenso": "5 meses",
+					"dosevacina": "2ª dose",
+					"fontedose": "SBIm/SBP"
+				}
+			]
+		},
+		{
+			"idadeDose": "6 meses",
+			"meses": 6,
+			"doses": [
+				{
+					"chavedose": "penta-dtp-6",
+					"nomevacina": "Penta/DTP",
+					"idadedosemeses": 6,
+					"idadedoseextenso": "6 meses",
+					"dosevacina": "3ª dose",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "vip-vop-6",
+					"nomevacina": "VIP/VOP",
+					"idadedosemeses": 6,
+					"idadedoseextenso": "6 meses",
+					"dosevacina": "3ª dose (com VIP)",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "pneumococia-conjugada-6",
+					"nomevacina": "Pneumocócia (conjugada)",
+					"idadedosemeses": 6,
+					"idadedoseextenso": "6 meses",
+					"dosevacina": "3ª dose",
+					"fontedose": "SBIm/SBP"
+				},
+				{
+					"chavedose": "rotavirus-humano-6",
+					"nomevacina": "Rotavírus Humano",
+					"idadedosemeses": 6,
+					"idadedoseextenso": "6 meses",
+					"dosevacina": "3ª dose (apenas na pentavalente)",
+					"fontedose": "SBIm/SBP"
+				},
+				{
+					"chavedose": "influenza-gripe-6",
+					"nomevacina": "Influenza (gripe)",
+					"idadedosemeses": 6,
+					"idadedoseextenso": "6 meses",
+					"dosevacina": "1ª dose",
+					"fontedose": "SUS"
+				}
+			]
+		},
+		{
+			"idadeDose": "7 meses",
+			"meses": 7,
+			"doses": [
+				{
+					"chavedose": "meningococica-c-conjugada-7",
+					"nomevacina": "Meningocócica C (conjugada)",
+					"idadedosemeses": 7,
+					"idadedoseextenso": "7 meses",
+					"dosevacina": "Reforço",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "meningococica-b-7",
+					"nomevacina": "Meningocócica B",
+					"idadedosemeses": 7,
+					"idadedoseextenso": "7 meses",
+					"dosevacina": "3ª dose",
+					"fontedose": "SBIm/SBP"
+				},
+				{
+					"chavedose": "influenza-gripe-7",
+					"nomevacina": "Influenza (gripe)",
+					"idadedosemeses": 7,
+					"idadedoseextenso": "7 meses",
+					"dosevacina": "Reforço",
+					"fontedose": "SUS"
+				}
+			]
+		},
+		{
+			"idadeDose": "9 meses",
+			"meses": 9,
+			"doses": [
+				{
+					"chavedose": "febre-amarela-9",
+					"nomevacina": "Febre Amarela",
+					"idadedosemeses": 9,
+					"idadedoseextenso": "9 meses",
+					"dosevacina": "Uma dose",
+					"fontedose": "SUS"
+				}
+			]
+		},
+		{
+			"idadeDose": "12 meses",
+			"meses": 12,
+			"doses": [
+				{
+					"chavedose": "pneumococia-conjugada-12",
+					"nomevacina": "Pneumocócia (conjugada)",
+					"idadedosemeses": 12,
+					"idadedoseextenso": "12 meses",
+					"dosevacina": "Reforço",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "meningococica-c-conjugada-12",
+					"nomevacina": "Meningocócica C (conjugada)",
+					"idadedosemeses": 12,
+					"idadedoseextenso": "12 meses",
+					"dosevacina": "Reforço",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "meningococica-b-12",
+					"nomevacina": "Meningocócica B",
+					"idadedosemeses": 12,
+					"idadedoseextenso": "12 meses",
+					"dosevacina": "Reforço",
+					"fontedose": "SBIm/SBP"
+				},
+				{
+					"chavedose": "triplice-viral-scr-12",
+					"nomevacina": "Tríplice Viral (SCR)",
+					"idadedosemeses": 12,
+					"idadedoseextenso": "12 meses",
+					"dosevacina": "1ª dose",
+					"fontedose": "SUS"
+				}
+			]
+		},
+		{
+			"idadeDose": "15 meses",
+			"meses": 15,
+			"doses": [
+				{
+					"chavedose": "penta-dtp-15",
+					"nomevacina": "Penta/DTP",
+					"idadedosemeses": 15,
+					"idadedoseextenso": "15 meses",
+					"dosevacina": "1° reforço (com DTP)",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "vip-vop-15",
+					"nomevacina": "VIP/VOP",
+					"idadedosemeses": 15,
+					"idadedoseextenso": "15 meses",
+					"dosevacina": "1° reforço (com VOP)",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "hepatite-a-15",
+					"nomevacina": "Hepatite A",
+					"idadedosemeses": 15,
+					"idadedoseextenso": "15 meses",
+					"dosevacina": "Uma dose",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "tetra-viral-15",
+					"nomevacina": "Tetra Viral (SCRV)",
+					"idadedosemeses": 15,
+					"idadedoseextenso": "15 meses",
+					"dosevacina": "Uma dose",
+					"fontedose": "SUS"
+				}
+			]
+		},
+		{
+			"idadeDose": "18 meses",
+			"meses": 18,
+			"doses": [
+				{
+					"chavedose": "hepatite-a-18",
+					"nomevacina": "Hepatite A",
+					"idadedosemeses": 18,
+					"idadedoseextenso": "18 meses",
+					"dosevacina": "Reforço",
+					"fontedose": "SBIm/SBP"
+				}
+			]
+		},
+		{
+			"idadeDose": "4 anos",
+			"meses": 48,
+			"doses": [
+				{
+					"chavedose": "penta-dtp-48",
+					"nomevacina": "Penta/DTP",
+					"idadedosemeses": 48,
+					"idadedoseextenso": "4 anos",
+					"dosevacina": "2° reforço (com DTP)",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "vip-vop-48",
+					"nomevacina": "VIP/VOP",
+					"idadedosemeses": 48,
+					"idadedoseextenso": "4 anos",
+					"dosevacina": "2° reforço (com VOP)",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "febre-amarela-48",
+					"nomevacina": "Febre Amarela",
+					"idadedosemeses": 48,
+					"idadedoseextenso": "4 anos",
+					"dosevacina": "Reforço",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "influenza-gripe-48",
+					"nomevacina": "Influenza (gripe)",
+					"idadedosemeses": 48,
+					"idadedoseextenso": "4 anos",
+					"dosevacina": "Reforço",
+					"fontedose": "SUS"
+				}
+			]
+		},
+		{
+			"idadeDose": "5 anos",
+			"meses": 60,
+			"doses": [
+				{
+					"chavedose": "meningococica-c-conjugada-60",
+					"nomevacina": "Meningocócica C (conjugada)",
+					"idadedosemeses": 60,
+					"idadedoseextenso": "5 anos",
+					"dosevacina": "Reforço",
+					"fontedose": "SBIm/SBP"
+				}
+			]
+		},
+		{
+			"idadeDose": "9 anos",
+			"meses": 108,
+			"doses": [
+				{
+					"chavedose": "hpv-108",
+					"nomevacina": "HPV",
+					"idadedosemeses": 108,
+					"idadedoseextenso": "9 anos",
+					"dosevacina": "2 doses",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "dengue-108",
+					"nomevacina": "Dengue",
+					"idadedosemeses": 108,
+					"idadedoseextenso": "9 anos",
+					"dosevacina": "3 doses com intervalo de 6 meses entre cada uma",
+					"fontedose": "SBIm/SBP"
+				}
+			]
+		},
+		{
+			"idadeDose": "10 a 19 anos",
+			"meses": 120,
+			"doses": [
+				{
+					"chavedose": "hepatite-b-120",
+					"nomevacina": "Hepatite B",
+					"idadedosemeses": 120,
+					"idadedoseextenso": "10 a 19 anos",
+					"dosevacina": "3 doses (a depender da situação vacinal)",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "febre-amarela-120",
+					"nomevacina": "Febre Amarela",
+					"idadedosemeses": 120,
+					"idadedoseextenso": "10 a 19 anos",
+					"dosevacina": "Uma dose e um reforço, a depender da situação vacinal",
+					"fontedose": "SUS"
+				}
+			]
+		},
+		{
+			"idadeDose": "20 a 59 anos",
+			"meses": 240,
+			"doses": [
+				{
+					"chavedose": "hepatite-b-240",
+					"nomevacina": "Hepatite B",
+					"idadedosemeses": 240,
+					"idadedoseextenso": "20 a 59 anos",
+					"dosevacina": "3 doses (a depender da situação vacinal)",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "febre-amarela-240",
+					"nomevacina": "Febre Amarela",
+					"idadedosemeses": 240,
+					"idadedoseextenso": "20 a 59 anos",
+					"dosevacina": "Uma dose e um reforço, a depender da situação vacinal",
+					"fontedose": "SUS"
+				}
+			]
+		},
+		{
+			"idadeDose": "60 anos ou mais",
+			"meses": 720,
+			"doses": [
+				{
+					"chavedose": "hepatite-b-720",
+					"nomevacina": "Hepatite B",
+					"idadedosemeses": 720,
+					"idadedoseextenso": "60 anos ou mais",
+					"dosevacina": "3 doses (a depender da situação vacinal)",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "febre-amarela-720",
+					"nomevacina": "Febre Amarela",
+					"idadedosemeses": 720,
+					"idadedoseextenso": "60 anos ou mais",
+					"dosevacina": "Em situação de risco de contrair a doença, o médico deverá avaliar o benefício/risco da vacinação",
+					"fontedose": "SUS"
+				}
+			]
 		}
 	]
 }

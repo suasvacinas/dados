@@ -352,11 +352,15 @@
         "fonte": "SUS"
       },
       "comentarios": {
-        "texto": "Pode ser recomendada também para atender a exigências sanitárias de determinadas viagens internacionais, devendo a vacinação ser feita até 10 dias antes de viagens. Recomenda- se que crianças menores de 2 anos de idade não recebam as vacinas febre amarela e tríplice viral no mesmo dia. Nesses casos, e sempre que possível, respeitar intervalo de 30 dias entre as doses. Contraindicada para imunodeprimidos; mas se os riscos de adquirir a doença superarem os riscos potenciais da vacinação, o médico deverá avaliar sua utilização.",
+        "texto": "Pode ser recomendada também para atender a exigências sanitárias de determinadas viagens internacionais, devendo a vacinação ser feita até 10 dias antes de viagens. Recomenda-se que crianças menores de 2 anos de idade não recebam as vacinas febre amarela e tríplice viral no mesmo dia. Nesses casos, e sempre que possível, respeitar intervalo de 30 dias entre as doses. Contraindicada para imunodeprimidos; mas se os riscos de adquirir a doença superarem os riscos potenciais da vacinação, o médico deverá avaliar sua utilização.",
         "fonte": "SBIm/SBP"
       },
       "doses": [
-        {"chavedose": "febre-amarela-9",              "nomevacina": "Febre Amarela",                "idadedosemeses": 9,  "idadedoseextenso": "9 meses",   "dosevacina": "Dose única",                       "fontedose": "SUS"}
+        {"chavedose": "febre-amarela-9",              "nomevacina": "Febre Amarela",                "idadedosemeses": 9,    "idadedoseextenso": "9 meses",         "dosevacina": "Uma dose",                                                                                             "fontedose": "SUS"},
+        {"chavedose": "febre-amarela-48",             "nomevacina": "Febre Amarela",                "idadedosemeses": 48,   "idadedoseextenso": "4 anos",          "dosevacina": "Reforço",                                                                                              "fontedose": "SUS"},
+        {"chavedose": "febre-amarela-120",            "nomevacina": "Febre Amarela",                "idadedosemeses": 120,  "idadedoseextenso": "10 a 19 anos",    "dosevacina": "Uma dose e um reforço, a depender da situação vacinal",                                                "fontedose": "SUS"},
+        {"chavedose": "febre-amarela-240",            "nomevacina": "Febre Amarela",                "idadedosemeses": 240,  "idadedoseextenso": "20 a 59 anos",    "dosevacina": "Uma dose e um reforço, a depender da situação vacinal",                                                "fontedose": "SUS"},
+        {"chavedose": "febre-amarela-720",            "nomevacina": "Febre Amarela",                "idadedosemeses": 720,  "idadedoseextenso": "60 anos ou mais", "dosevacina": "Em situação de risco de contrair a doença, o médico deverá avaliar o benefício/risco da vacinação",    "fontedose": "SUS"}
       ]
     },
     {
