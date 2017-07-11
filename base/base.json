@@ -261,6 +261,27 @@
         {"chavedose": "hpv-108",                      "nomevacina": "HPV",                         "idadedosemeses": 108, "idadedoseextenso": "9 anos",  "dosevacina": "2 doses",                          "fontedose": "SUS"},
         {"chavedose": "dengue-108",                   "nomevacina": "Dengue",                      "idadedosemeses": 108, "idadedoseextenso": "9 anos",  "dosevacina": "3 doses com intervalo de 6 meses entre cada uma", "fontedose": "SBIm/SBP"}
       ]
+    },
+    {
+      "idadeDose": "10 a 19 anos",
+      "meses": 120,
+      "doses": [
+        {"chavedose": "hepatite-b-120",               "nomevacina": "Hepatite B",                 "idadedosemeses": 120,  "idadedoseextenso": "10 a 19 anos", "dosevacina": "3 doses (a depender da situação vacinal)",    "fontedose": "SUS"}
+      ]
+    },
+    {
+      "idadeDose": "20 a 59 anos",
+      "meses": 240,
+      "doses": [
+        {"chavedose": "hepatite-b-240",               "nomevacina": "Hepatite B",                 "idadedosemeses": 240,  "idadedoseextenso": "20 a 59 anos", "dosevacina": "3 doses (a depender da situação vacinal)",    "fontedose": "SUS"}
+      ]
+    },
+    {
+      "idadeDose": "60 anos ou mais",
+      "meses": 720,
+      "doses": [
+        {"chavedose": "hepatite-b-720",               "nomevacina": "Hepatite B",                 "idadedosemeses": 720,  "idadedoseextenso": "60 anos ou mais", "dosevacina": "3 doses (a depender da situação vacinal)",    "fontedose": "SUS"}
+      ]
     }
   ],
 
@@ -308,7 +329,10 @@
         "fonte": "SBIm/SBP"
       },
       "doses": [
-        {"chavedose": "hepatite-b-0",                 "nomevacina": "Hepatite B",                 "idadedosemeses": 0,    "idadedoseextenso": "Ao nascer", "dosevacina": "Dose ao nascer",    "fontedose": "SUS"}
+        {"chavedose": "hepatite-b-0",                 "nomevacina": "Hepatite B",                 "idadedosemeses": 0,    "idadedoseextenso": "Ao nascer", "dosevacina": "Dose ao nascer",    "fontedose": "SUS"},
+        {"chavedose": "hepatite-b-120",               "nomevacina": "Hepatite B",                 "idadedosemeses": 120,  "idadedoseextenso": "10 a 19 anos", "dosevacina": "3 doses (a depender da situação vacinal)",    "fontedose": "SUS"},
+        {"chavedose": "hepatite-b-240",               "nomevacina": "Hepatite B",                 "idadedosemeses": 240,  "idadedoseextenso": "20 a 59 anos", "dosevacina": "3 doses (a depender da situação vacinal)",    "fontedose": "SUS"},
+        {"chavedose": "hepatite-b-720",               "nomevacina": "Hepatite B",                 "idadedosemeses": 720,  "idadedoseextenso": "60 anos ou mais", "dosevacina": "3 doses (a depender da situação vacinal)",    "fontedose": "SUS"}
       ]
     },
     {
