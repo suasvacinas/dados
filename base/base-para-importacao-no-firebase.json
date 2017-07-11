@@ -1,0 +1,1543 @@
+{
+	"opcoes": [
+		{
+			"chave": "home",
+			"descricao": "Que vacinas deveria ter tomado...",
+			"subOpcoes": [
+				{
+					"tipo": "opcao",
+					"titulo": "Minha filha",
+					"chave": "minha-filha"
+				},
+				{
+					"tipo": "opcao",
+					"titulo": "Meu filho",
+					"chave": "meu-filho"
+				}
+			]
+		},
+		{
+			"chave": "minha-filha",
+			"descricao": "Qual a idade da sua filha?",
+			"subOpcoes": [
+				{
+					"tipo": "opcao",
+					"titulo": "Até 4 meses",
+					"chave": "filha-ate-4-meses"
+				},
+				{
+					"tipo": "opcao",
+					"titulo": "De 5 a 12 meses",
+					"chave": "filha-5-12-meses"
+				},
+				{
+					"tipo": "opcao",
+					"titulo": "Mais de 12 meses",
+					"chave": "filha-mais-12-meses"
+				}
+			]
+		},
+		{
+			"chave": "filha-ate-4-meses",
+			"descricao": "Filha de até 4 meses.\n Uma última pergunta: qual o período específico?",
+			"subOpcoes": [
+				{
+					"tipo": "dose",
+					"titulo": "Ao nascer",
+					"meses": 0
+				},
+				{
+					"tipo": "dose",
+					"titulo": "2 meses",
+					"meses": 2
+				},
+				{
+					"tipo": "dose",
+					"titulo": "3 meses",
+					"meses": 3
+				},
+				{
+					"tipo": "dose",
+					"titulo": "4 meses",
+					"meses": 4
+				}
+			]
+		},
+		{
+			"chave": "filha-5-12-meses",
+			"descricao": "Filha de 5 a 12 meses.\n Uma última pergunta: qual o período específico?",
+			"subOpcoes": [
+				{
+					"tipo": "dose",
+					"titulo": "5 meses",
+					"meses": 5
+				},
+				{
+					"tipo": "dose",
+					"titulo": "6 meses",
+					"meses": 6
+				},
+				{
+					"tipo": "dose",
+					"titulo": "7 meses",
+					"meses": 7
+				},
+				{
+					"tipo": "dose",
+					"titulo": "9 meses",
+					"meses": 9
+				},
+				{
+					"tipo": "dose",
+					"titulo": "12 meses",
+					"meses": 12
+				}
+			]
+		},
+		{
+			"chave": "filha-mais-12-meses",
+			"descricao": "Filha de mais de 12 meses.\n Uma última pergunta: qual o período específico?",
+			"subOpcoes": [
+				{
+					"tipo": "dose",
+					"titulo": "Até 15 meses",
+					"meses": 15
+				},
+				{
+					"tipo": "dose",
+					"titulo": "18 meses",
+					"meses": 18
+				},
+				{
+					"tipo": "dose",
+					"titulo": "4 anos",
+					"meses": 48
+				},
+				{
+					"tipo": "dose",
+					"titulo": "5 anos",
+					"meses": 60
+				},
+				{
+					"tipo": "dose",
+					"titulo": "9 anos ou mais",
+					"meses": 108
+				}
+			]
+		},
+		{
+			"chave": "meu-filho",
+			"descricao": "Qual a idade do seu filho?",
+			"subOpcoes": [
+				{
+					"tipo": "opcao",
+					"titulo": "Até 4 meses",
+					"chave": "filho-ate-4-meses"
+				},
+				{
+					"tipo": "opcao",
+					"titulo": "De 5 a 12 meses",
+					"chave": "filho-5-12-meses"
+				},
+				{
+					"tipo": "opcao",
+					"titulo": "Mais de 12 meses",
+					"chave": "filho-mais-12-meses"
+				}
+			]
+		},
+		{
+			"chave": "filho-ate-4-meses",
+			"descricao": "Filho de até 4 meses.\n Uma última pergunta: qual o período específico?",
+			"subOpcoes": [
+				{
+					"tipo": "dose",
+					"titulo": "Ao nascer",
+					"meses": 0
+				},
+				{
+					"tipo": "dose",
+					"titulo": "2 meses",
+					"meses": 2
+				},
+				{
+					"tipo": "dose",
+					"titulo": "3 meses",
+					"meses": 3
+				},
+				{
+					"tipo": "dose",
+					"titulo": "4 meses",
+					"meses": 4
+				}
+			]
+		},
+		{
+			"chave": "filho-5-12-meses",
+			"descricao": "Filho de 5 a 12 meses.\n Uma última pergunta: qual o período específico?",
+			"subOpcoes": [
+				{
+					"tipo": "dose",
+					"titulo": "5 meses",
+					"meses": 5
+				},
+				{
+					"tipo": "dose",
+					"titulo": "6 meses",
+					"meses": 6
+				},
+				{
+					"tipo": "dose",
+					"titulo": "7 meses",
+					"meses": 7
+				},
+				{
+					"tipo": "dose",
+					"titulo": "9 meses",
+					"meses": 9
+				},
+				{
+					"tipo": "dose",
+					"titulo": "12 meses",
+					"meses": 12
+				}
+			]
+		},
+		{
+			"chave": "filho-mais-12-meses",
+			"descricao": "Filho de mais de 12 meses.\n Uma última pergunta: qual o período específico?",
+			"subOpcoes": [
+				{
+					"tipo": "dose",
+					"titulo": "Até 15 meses",
+					"meses": 15
+				},
+				{
+					"tipo": "dose",
+					"titulo": "18 meses",
+					"meses": 18
+				},
+				{
+					"tipo": "dose",
+					"titulo": "4 anos",
+					"meses": 48
+				},
+				{
+					"tipo": "dose",
+					"titulo": "5 anos",
+					"meses": 60
+				},
+				{
+					"tipo": "dose",
+					"titulo": "9 anos ou mais",
+					"meses": 108
+				}
+			]
+		},
+		{
+			"chave": "meu-familiar",
+			"descricao": "Qual a idade do seu familiar?",
+			"subOpcoes": [
+				{
+					"tipo": "opcao",
+					"titulo": "Até 4 meses",
+					"chave": "familiar-ate-4-meses"
+				},
+				{
+					"tipo": "opcao",
+					"titulo": "De 5 a 12 meses",
+					"chave": "familiar-5-12-meses"
+				},
+				{
+					"tipo": "opcao",
+					"titulo": "Mais de 12 meses",
+					"chave": "familiar-mais-12-meses"
+				}
+			]
+		},
+		{
+			"chave": "familiar-ate-4-meses",
+			"descricao": "Familiar de até 4 meses.\n Uma última pergunta: qual o período específico?",
+			"subOpcoes": [
+				{
+					"tipo": "dose",
+					"titulo": "Ao nascer",
+					"meses": 0
+				},
+				{
+					"tipo": "dose",
+					"titulo": "2 meses",
+					"meses": 2
+				},
+				{
+					"tipo": "dose",
+					"titulo": "3 meses",
+					"meses": 3
+				},
+				{
+					"tipo": "dose",
+					"titulo": "4 meses",
+					"meses": 4
+				}
+			]
+		},
+		{
+			"chave": "familiar-5-12-meses",
+			"descricao": "Familiar de 5 a 12 meses.\n Uma última pergunta: qual o período específico?",
+			"subOpcoes": [
+				{
+					"tipo": "dose",
+					"titulo": "5 meses",
+					"meses": 5
+				},
+				{
+					"tipo": "dose",
+					"titulo": "6 meses",
+					"meses": 6
+				},
+				{
+					"tipo": "dose",
+					"titulo": "7 meses",
+					"meses": 7
+				},
+				{
+					"tipo": "dose",
+					"titulo": "9 meses",
+					"meses": 9
+				},
+				{
+					"tipo": "dose",
+					"titulo": "12 meses",
+					"meses": 12
+				}
+			]
+		},
+		{
+			"chave": "familiar-mais-12-meses",
+			"descricao": "Familiar de mais de 12 meses.\n Uma última pergunta: qual o período específico?",
+			"subOpcoes": [
+				{
+					"tipo": "dose",
+					"titulo": "Até 15 meses",
+					"meses": 15
+				},
+				{
+					"tipo": "dose",
+					"titulo": "18 meses",
+					"meses": 18
+				},
+				{
+					"tipo": "dose",
+					"titulo": "4 anos",
+					"meses": 48
+				},
+				{
+					"tipo": "dose",
+					"titulo": "5 anos",
+					"meses": 60
+				},
+				{
+					"tipo": "dose",
+					"titulo": "9 anos ou mais",
+					"meses": 108
+				}
+			]
+		}
+	],
+	"doses": [
+		{
+			"idadeDose": "Ao nascer",
+			"meses": 0,
+			"doses": [
+				{
+					"chavedose": "bcg-0",
+					"nomevacina": "BCG",
+					"idadedosemeses": 0,
+					"idadedoseextenso": "Ao nascer",
+					"dosevacina": "Dose única",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "hepatite-b-0",
+					"nomevacina": "Hepatite B",
+					"idadedosemeses": 0,
+					"idadedoseextenso": "Ao nascer",
+					"dosevacina": "Dose ao nascer",
+					"fontedose": "SUS"
+				}
+			]
+		},
+		{
+			"idadeDose": "2 meses",
+			"meses": 2,
+			"doses": [
+				{
+					"chavedose": "penta-dtp-2",
+					"nomevacina": "Penta/DTP",
+					"idadedosemeses": 2,
+					"idadedoseextenso": "2 meses",
+					"dosevacina": "1ª dose",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "vip-vop-2",
+					"nomevacina": "VIP/VOP",
+					"idadedosemeses": 2,
+					"idadedoseextenso": "2 meses",
+					"dosevacina": "1ª dose (com VIP)",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "pneumococia-conjugada-2",
+					"nomevacina": "Pneumocócia (conjugada)",
+					"idadedosemeses": 2,
+					"idadedoseextenso": "2 meses",
+					"dosevacina": "1ª dose",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "rotavirus-humano-2",
+					"nomevacina": "Rotavírus Humano",
+					"idadedosemeses": 2,
+					"idadedoseextenso": "2 meses",
+					"dosevacina": "1ª dose",
+					"fontedose": "SUS"
+				}
+			]
+		},
+		{
+			"idadeDose": "3 meses",
+			"meses": 3,
+			"doses": [
+				{
+					"chavedose": "meningococica-c-conjugada-3",
+					"nomevacina": "Meningocócica C (conjugada)",
+					"idadedosemeses": 3,
+					"idadedoseextenso": "3 meses",
+					"dosevacina": "1ª dose",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "meningococica-b-3",
+					"nomevacina": "Meningocócica B",
+					"idadedosemeses": 3,
+					"idadedoseextenso": "3 meses",
+					"dosevacina": "1ª dose",
+					"fontedose": "SBIm/SBP"
+				}
+			]
+		},
+		{
+			"idadeDose": "4 meses",
+			"meses": 4,
+			"doses": [
+				{
+					"chavedose": "penta-dtp-4",
+					"nomevacina": "Penta/DTP",
+					"idadedosemeses": 4,
+					"idadedoseextenso": "4 meses",
+					"dosevacina": "2ª dose",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "vip-vop-4",
+					"nomevacina": "VIP/VOP",
+					"idadedosemeses": 4,
+					"idadedoseextenso": "4 meses",
+					"dosevacina": "2ª dose (com VIP)",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "pneumococia-conjugada-4",
+					"nomevacina": "Pneumocócia (conjugada)",
+					"idadedosemeses": 4,
+					"idadedoseextenso": "4 meses",
+					"dosevacina": "2ª dose",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "rotavirus-humano-4",
+					"nomevacina": "Rotavírus Humano",
+					"idadedosemeses": 4,
+					"idadedoseextenso": "4 meses",
+					"dosevacina": "2ª dose",
+					"fontedose": "SUS"
+				}
+			]
+		},
+		{
+			"idadeDose": "5 meses",
+			"meses": 5,
+			"doses": [
+				{
+					"chavedose": "meningococica-c-conjugada-5",
+					"nomevacina": "Meningocócica C (conjugada)",
+					"idadedosemeses": 5,
+					"idadedoseextenso": "5 meses",
+					"dosevacina": "2ª dose",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "meningococica-b-5",
+					"nomevacina": "Meningocócica B",
+					"idadedosemeses": 5,
+					"idadedoseextenso": "5 meses",
+					"dosevacina": "2ª dose",
+					"fontedose": "SBIm/SBP"
+				}
+			]
+		},
+		{
+			"idadeDose": "6 meses",
+			"meses": 6,
+			"doses": [
+				{
+					"chavedose": "penta-dtp-6",
+					"nomevacina": "Penta/DTP",
+					"idadedosemeses": 6,
+					"idadedoseextenso": "6 meses",
+					"dosevacina": "3ª dose",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "vip-vop-6",
+					"nomevacina": "VIP/VOP",
+					"idadedosemeses": 6,
+					"idadedoseextenso": "6 meses",
+					"dosevacina": "3ª dose (com VIP)",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "pneumococia-conjugada-6",
+					"nomevacina": "Pneumocócia (conjugada)",
+					"idadedosemeses": 6,
+					"idadedoseextenso": "6 meses",
+					"dosevacina": "3ª dose",
+					"fontedose": "SBIm/SBP"
+				},
+				{
+					"chavedose": "rotavirus-humano-6",
+					"nomevacina": "Rotavírus Humano",
+					"idadedosemeses": 6,
+					"idadedoseextenso": "6 meses",
+					"dosevacina": "3ª dose (apenas na pentavalente)",
+					"fontedose": "SBIm/SBP"
+				},
+				{
+					"chavedose": "influenza-gripe-6",
+					"nomevacina": "Influenza (gripe)",
+					"idadedosemeses": 6,
+					"idadedoseextenso": "6 meses",
+					"dosevacina": "1ª dose",
+					"fontedose": "SUS"
+				}
+			]
+		},
+		{
+			"idadeDose": "7 meses",
+			"meses": 7,
+			"doses": [
+				{
+					"chavedose": "meningococica-c-conjugada-7",
+					"nomevacina": "Meningocócica C (conjugada)",
+					"idadedosemeses": 7,
+					"idadedoseextenso": "7 meses",
+					"dosevacina": "Reforço",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "meningococica-b-7",
+					"nomevacina": "Meningocócica B",
+					"idadedosemeses": 7,
+					"idadedoseextenso": "7 meses",
+					"dosevacina": "3ª dose",
+					"fontedose": "SBIm/SBP"
+				},
+				{
+					"chavedose": "influenza-gripe-7",
+					"nomevacina": "Influenza (gripe)",
+					"idadedosemeses": 7,
+					"idadedoseextenso": "7 meses",
+					"dosevacina": "Reforço",
+					"fontedose": "SUS"
+				}
+			]
+		},
+		{
+			"idadeDose": "9 meses",
+			"meses": 9,
+			"doses": [
+				{
+					"chavedose": "febre-amarela-9",
+					"nomevacina": "Febre Amarela",
+					"idadedosemeses": 9,
+					"idadedoseextenso": "9 meses",
+					"dosevacina": "Dose única",
+					"fontedose": "SUS"
+				}
+			]
+		},
+		{
+			"idadeDose": "12 meses",
+			"meses": 12,
+			"doses": [
+				{
+					"chavedose": "pneumococia-conjugada-12",
+					"nomevacina": "Pneumocócia (conjugada)",
+					"idadedosemeses": 12,
+					"idadedoseextenso": "12 meses",
+					"dosevacina": "Reforço",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "meningococica-c-conjugada-12",
+					"nomevacina": "Meningocócica C (conjugada)",
+					"idadedosemeses": 12,
+					"idadedoseextenso": "12 meses",
+					"dosevacina": "Reforço",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "meningococica-b-12",
+					"nomevacina": "Meningocócica B",
+					"idadedosemeses": 12,
+					"idadedoseextenso": "12 meses",
+					"dosevacina": "Reforço",
+					"fontedose": "SBIm/SBP"
+				},
+				{
+					"chavedose": "triplice-viral-scr-12",
+					"nomevacina": "Tríplice Viral (SCR)",
+					"idadedosemeses": 12,
+					"idadedoseextenso": "12 meses",
+					"dosevacina": "1ª dose",
+					"fontedose": "SUS"
+				}
+			]
+		},
+		{
+			"idadeDose": "15 meses",
+			"meses": 15,
+			"doses": [
+				{
+					"chavedose": "penta-dtp-15",
+					"nomevacina": "Penta/DTP",
+					"idadedosemeses": 15,
+					"idadedoseextenso": "15 meses",
+					"dosevacina": "1° reforço (com DTP)",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "vip-vop-15",
+					"nomevacina": "VIP/VOP",
+					"idadedosemeses": 15,
+					"idadedoseextenso": "15 meses",
+					"dosevacina": "1° reforço (com VOP)",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "hepatite-a-15",
+					"nomevacina": "Hepatite A",
+					"idadedosemeses": 15,
+					"idadedoseextenso": "15 meses",
+					"dosevacina": "Uma dose",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "tetra-viral-15",
+					"nomevacina": "Tetra Viral (SCRV)",
+					"idadedosemeses": 15,
+					"idadedoseextenso": "15 meses",
+					"dosevacina": "Uma dose",
+					"fontedose": "SUS"
+				}
+			]
+		},
+		{
+			"idadeDose": "18 meses",
+			"meses": 18,
+			"doses": [
+				{
+					"chavedose": "hepatite-a-18",
+					"nomevacina": "Hepatite A",
+					"idadedosemeses": 18,
+					"idadedoseextenso": "18 meses",
+					"dosevacina": "Reforço",
+					"fontedose": "SBIm/SBP"
+				}
+			]
+		},
+		{
+			"idadeDose": "4 anos",
+			"meses": 48,
+			"doses": [
+				{
+					"chavedose": "penta-dtp-48",
+					"nomevacina": "Penta/DTP",
+					"idadedosemeses": 48,
+					"idadedoseextenso": "4 anos",
+					"dosevacina": "2° reforço (com DTP)",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "vip-vop-48",
+					"nomevacina": "VIP/VOP",
+					"idadedosemeses": 48,
+					"idadedoseextenso": "4 anos",
+					"dosevacina": "2° reforço (com VOP)",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "influenza-gripe-48",
+					"nomevacina": "Influenza (gripe)",
+					"idadedosemeses": 48,
+					"idadedoseextenso": "4 anos",
+					"dosevacina": "Reforço",
+					"fontedose": "SUS"
+				}
+			]
+		},
+		{
+			"idadeDose": "5 anos",
+			"meses": 60,
+			"doses": [
+				{
+					"chavedose": "meningococica-c-conjugada-60",
+					"nomevacina": "Meningocócica C (conjugada)",
+					"idadedosemeses": 60,
+					"idadedoseextenso": "5 anos",
+					"dosevacina": "Reforço",
+					"fontedose": "SBIm/SBP"
+				}
+			]
+		},
+		{
+			"idadeDose": "9 anos",
+			"meses": 108,
+			"doses": [
+				{
+					"chavedose": "hpv-108",
+					"nomevacina": "HPV",
+					"idadedosemeses": 108,
+					"idadedoseextenso": "9 anos",
+					"dosevacina": "2 doses",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "dengue-108",
+					"nomevacina": "Dengue",
+					"idadedosemeses": 108,
+					"idadedoseextenso": "9 anos",
+					"dosevacina": "3 doses com intervalo de 6 meses entre cada uma",
+					"fontedose": "SBIm/SBP"
+				}
+			]
+		},
+		{
+			"idadeDose": "10 a 19 anos",
+			"meses": 120,
+			"doses": [
+				{
+					"chavedose": "hepatite-b-120",
+					"nomevacina": "Hepatite B",
+					"idadedosemeses": 120,
+					"idadedoseextenso": "10 a 19 anos",
+					"dosevacina": "3 doses (a depender da situação vacinal)",
+					"fontedose": "SUS"
+				}
+			]
+		},
+		{
+			"idadeDose": "20 a 59 anos",
+			"meses": 240,
+			"doses": [
+				{
+					"chavedose": "hepatite-b-240",
+					"nomevacina": "Hepatite B",
+					"idadedosemeses": 240,
+					"idadedoseextenso": "20 a 59 anos",
+					"dosevacina": "3 doses (a depender da situação vacinal)",
+					"fontedose": "SUS"
+				}
+			]
+		},
+		{
+			"idadeDose": "60 anos ou mais",
+			"meses": 720,
+			"doses": [
+				{
+					"chavedose": "hepatite-b-720",
+					"nomevacina": "Hepatite B",
+					"idadedosemeses": 720,
+					"idadedoseextenso": "60 anos ou mais",
+					"dosevacina": "3 doses (a depender da situação vacinal)",
+					"fontedose": "SUS"
+				}
+			]
+		}
+	],
+	"descricoes-vacinas": [
+		{
+			"nomevacina": "BCG",
+			"descricao": {
+				"texto": "Previne as formas graves da tuberculose (miliar e meníngea).",
+				"fonte": "SUS"
+			},
+			"redepublica": {
+				"texto": "-",
+				"fonte": "SUS"
+			},
+			"variacao": {
+				"texto": "Não há variação da vacina da rede pública.",
+				"fonte": "SUS"
+			},
+			"comentarios": {
+				"texto": "Deverá ser aplicada o mais precocemente possível, de preferência ainda na maternidade, em recém-nascidos com peso maior ou igual a 2.000 g. Em caso de suspeita de imunodefciência ou RN s cujas mães fizeram uso de biológicos durante a gestação, a vacina pode estar contraindicada.",
+				"fonte": "SBIm/SBP"
+			},
+			"doses": [
+				{
+					"chavedose": "bcg-0",
+					"nomevacina": "BCG",
+					"idadedosemeses": 0,
+					"idadedoseextenso": "Ao nascer",
+					"dosevacina": "Dose única",
+					"fontedose": "SUS"
+				}
+			]
+		},
+		{
+			"nomevacina": "Hepatite B",
+			"descricao": {
+				"texto": "Previne a infecção causadoa pelo vírus da hepatite B.",
+				"fonte": "SUS"
+			},
+			"redepublica": {
+				"texto": "-",
+				"fonte": "SUS"
+			},
+			"variacao": {
+				"texto": "Não há variação da vacina da rede pública.",
+				"fonte": "SUS"
+			},
+			"comentarios": {
+				"texto": "a) Aplicar a primeira dose nas primeiras 12 horas de vida.\nb) Não elimina a necessidade de adoção do esquema de doses da vacina combinada (Penta ou Hexavalente).",
+				"fonte": "SBIm/SBP"
+			},
+			"doses": [
+				{
+					"chavedose": "hepatite-b-0",
+					"nomevacina": "Hepatite B",
+					"idadedosemeses": 0,
+					"idadedoseextenso": "Ao nascer",
+					"dosevacina": "Dose ao nascer",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "hepatite-b-120",
+					"nomevacina": "Hepatite B",
+					"idadedosemeses": 120,
+					"idadedoseextenso": "10 a 19 anos",
+					"dosevacina": "3 doses (a depender da situação vacinal)",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "hepatite-b-240",
+					"nomevacina": "Hepatite B",
+					"idadedosemeses": 240,
+					"idadedoseextenso": "20 a 59 anos",
+					"dosevacina": "3 doses (a depender da situação vacinal)",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "hepatite-b-720",
+					"nomevacina": "Hepatite B",
+					"idadedosemeses": 720,
+					"idadedoseextenso": "60 anos ou mais",
+					"dosevacina": "3 doses (a depender da situação vacinal)",
+					"fontedose": "SUS"
+				}
+			]
+		},
+		{
+			"nomevacina": "Penta/DTP",
+			"descricao": {
+				"texto": "Protege contra difteria, tétano e Pertussis (Tríplice bacteriana: coqueluche, hepatite B e as infecções causadas pela bactéria Haemophilus influenza tipo b).",
+				"fonte": "SUS"
+			},
+			"redepublica": {
+				"texto": "DTPw - é feita a partir de céluas inteiras da bactéria.",
+				"fonte": "SUS"
+			},
+			"variacao": {
+				"texto": "DTPa - é acelular, ou seja, não é feita com células inteiras, mas sim com proteínas. \"Ela é uma vacina mais purificada, só contém o que realmente é necessário para proteger o ser humano e por isso as chances de ocorrerem eventos adversos são menos frequentes e intensas\", explica a pediatra Isabella Ballalai, presidente da Sociedade Brasileira de Imunizações (SBIm). Caso seu bebê tenha tomada uma dose da DTPw, que é oferecida na rede pública, e tenha apresentado febre alta por um tempo prolongado e outras reações adversas é recomendado passar a oferecer a DTPa.",
+				"fonte": "SUS"
+			},
+			"comentarios": {
+				"texto": "O uso da vacina DTPa é preferível ao da DTPw, pois os eventos adversos associados com sua administração são menos frequentes e intensos.",
+				"fonte": "SBIm/SBP"
+			},
+			"doses": [
+				{
+					"chavedose": "penta-dtp-2",
+					"nomevacina": "Penta/DTP",
+					"idadedosemeses": 2,
+					"idadedoseextenso": "2 meses",
+					"dosevacina": "1ª dose",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "penta-dtp-4",
+					"nomevacina": "Penta/DTP",
+					"idadedosemeses": 4,
+					"idadedoseextenso": "4 meses",
+					"dosevacina": "2ª dose",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "penta-dtp-6",
+					"nomevacina": "Penta/DTP",
+					"idadedosemeses": 6,
+					"idadedoseextenso": "6 meses",
+					"dosevacina": "3ª dose",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "penta-dtp-15",
+					"nomevacina": "Penta/DTP",
+					"idadedosemeses": 15,
+					"idadedoseextenso": "15 meses",
+					"dosevacina": "1° reforço (com DTP)",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "penta-dtp-48",
+					"nomevacina": "Penta/DTP",
+					"idadedosemeses": 48,
+					"idadedoseextenso": "4 anos",
+					"dosevacina": "2° reforço (com DTP)",
+					"fontedose": "SUS"
+				}
+			]
+		},
+		{
+			"nomevacina": "VIP/VOP",
+			"descricao": {
+				"texto": "VIP (Vacina Inativada poliomielite) /VOP (Vacina Oral poliomielite) - Protegem contra poliomielite.",
+				"fonte": "SUS"
+			},
+			"redepublica": {
+				"texto": "VIP 3 doses e VOP em reforços.",
+				"fonte": "SUS"
+			},
+			"variacao": {
+				"texto": "Somente pode ser administrada se tomou DTPa e dTpa.",
+				"fonte": "SUS"
+			},
+			"comentarios": {
+				"texto": "Recomenda-se que, idealmente, todas as doses sejam com a VIP (até mesmo em reforços). Não deve ser utilizada VOP em crianças hospitalizadas e imunodeficientes.",
+				"fonte": "SBIm/SBP"
+			},
+			"doses": [
+				{
+					"chavedose": "vip-vop-2",
+					"nomevacina": "VIP/VOP",
+					"idadedosemeses": 2,
+					"idadedoseextenso": "2 meses",
+					"dosevacina": "1ª dose (com VIP)",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "vip-vop-4",
+					"nomevacina": "VIP/VOP",
+					"idadedosemeses": 4,
+					"idadedoseextenso": "4 meses",
+					"dosevacina": "2ª dose (com VIP)",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "vip-vop-6",
+					"nomevacina": "VIP/VOP",
+					"idadedosemeses": 6,
+					"idadedoseextenso": "6 meses",
+					"dosevacina": "3ª dose (com VIP)",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "vip-vop-15",
+					"nomevacina": "VIP/VOP",
+					"idadedosemeses": 15,
+					"idadedoseextenso": "15 meses",
+					"dosevacina": "1° reforço (com VOP)",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "vip-vop-48",
+					"nomevacina": "VIP/VOP",
+					"idadedosemeses": 48,
+					"idadedoseextenso": "4 anos",
+					"dosevacina": "2° reforço (com VOP)",
+					"fontedose": "SUS"
+				}
+			]
+		},
+		{
+			"nomevacina": "Pneumocócia (conjugada)",
+			"descricao": {
+				"texto": "Previne infecções invasivas (septicemia, meningite, pneumonia e bacteriana) e otite média aguda (OMA), causadas pelo Streptococus pneumoniae.",
+				"fonte": "SUS"
+			},
+			"redepublica": {
+				"texto": "VPC10 - protege contra 10 subtipos de pneumococos.",
+				"fonte": "SUS"
+			},
+			"variacao": {
+				"texto": "VPC13 - protege contra 13 subtipos de pneumococos.",
+				"fonte": "SUS"
+			},
+			"comentarios": {
+				"texto": "A recomendação da VP13 visa ampliar a proteção e, portanto, quando possível, deve ser usada inclusive para as doses da primovacinação. No entanto, quando isso não é possível ou crianças menores de 6 anos com esquema completo ou incompleto de VPC10 podem se beneficiar com dose(s) adicional(is) de VPC13, respeitando-se o intervalo mínimo de dois meses da dose anterior.",
+				"fonte": "SBIm/SBP"
+			},
+			"doses": [
+				{
+					"chavedose": "pneumococia-conjugada-2",
+					"nomevacina": "Pneumocócia (conjugada)",
+					"idadedosemeses": 2,
+					"idadedoseextenso": "2 meses",
+					"dosevacina": "1ª dose",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "pneumococia-conjugada-4",
+					"nomevacina": "Pneumocócia (conjugada)",
+					"idadedosemeses": 4,
+					"idadedoseextenso": "4 meses",
+					"dosevacina": "2ª dose",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "pneumococia-conjugada-6",
+					"nomevacina": "Pneumocócia (conjugada)",
+					"idadedosemeses": 6,
+					"idadedoseextenso": "6 meses",
+					"dosevacina": "3ª dose",
+					"fontedose": "SBIm/SBP"
+				},
+				{
+					"chavedose": "pneumococia-conjugada-12",
+					"nomevacina": "Pneumocócia (conjugada)",
+					"idadedosemeses": 12,
+					"idadedoseextenso": "12 meses",
+					"dosevacina": "Reforço",
+					"fontedose": "SUS"
+				}
+			]
+		},
+		{
+			"nomevacina": "Rotavírus Humano",
+			"descricao": {
+				"texto": "Protege contra as complicações decorrentes da infecção pelo rotavírus.",
+				"fonte": "SUS"
+			},
+			"redepublica": {
+				"texto": "Monovalente - protege contra um sorotipo de rotavírus, mas oferece proteção cruzada contra outro sorotipo.",
+				"fonte": "SUS"
+			},
+			"variacao": {
+				"texto": "Pentavalente - oferece imunidade contra 5 sorotipos diferentes de rotavírus. Bebes que iniciam a vacinação com uma determinada vacina devem idealmente terminar o esquema vacinal com o mesmo produto.",
+				"fonte": "SUS"
+			},
+			"comentarios": {
+				"texto": "Para vacina rotavírus pentavalente é indicada uma terceira dose aos 6 meses de idade. O intervalo mínimo entre as doses é de 30 dias. Se a criança cuspir, regurgitar ou vomitar após a vacinação, não repetir a dose. Não utilizar em crianças hospitalizadas. Em caso de suspeita de imunodefciência ou RN s cujas mães fizeram uso de biológicos durante a gestação, a vacina pode estar contraindicada e seu uso deve ser avaliado pelo médico",
+				"fonte": "SBIm/SBP"
+			},
+			"doses": [
+				{
+					"chavedose": "rotavirus-humano-2",
+					"nomevacina": "Rotavírus Humano",
+					"idadedosemeses": 2,
+					"idadedoseextenso": "2 meses",
+					"dosevacina": "1ª dose",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "rotavirus-humano-4",
+					"nomevacina": "Rotavírus Humano",
+					"idadedosemeses": 4,
+					"idadedoseextenso": "4 meses",
+					"dosevacina": "2ª dose",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "rotavirus-humano-6",
+					"nomevacina": "Rotavírus Humano",
+					"idadedosemeses": 6,
+					"idadedoseextenso": "6 meses",
+					"dosevacina": "3ª dose (apenas na pentavalente)",
+					"fontedose": "SBIm/SBP"
+				}
+			]
+		},
+		{
+			"nomevacina": "Meningocócica C (conjugada)",
+			"descricao": {
+				"texto": "Previne a doença sistêmica causada pela Neisseria meningitidis do sorogrupo C.",
+				"fonte": "SUS"
+			},
+			"redepublica": {
+				"texto": "MenC - previne contra o tipo C.",
+				"fonte": "SUS"
+			},
+			"variacao": {
+				"texto": "MenACWY - previne contra os tipos ACWY.",
+				"fonte": "SUS"
+			},
+			"comentarios": {
+				"texto": "Sempre que possível, preferir a vacina menACWY, inclusive para os reforços de crianças previamente vacinadas com menC. Crianças com vacinação completa ou incompleta com menC podem se beneficiar com o uso da vacina menACWY, com o objetivo de ampliar a proteção. Respeitar o intervalo mínimo de dois meses da última dose de menC.",
+				"fonte": "SBIm/SBP"
+			},
+			"doses": [
+				{
+					"chavedose": "meningococica-c-conjugada-3",
+					"nomevacina": "Meningocócica C (conjugada)",
+					"idadedosemeses": 3,
+					"idadedoseextenso": "3 meses",
+					"dosevacina": "1ª dose",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "meningococica-c-conjugada-5",
+					"nomevacina": "Meningocócica C (conjugada)",
+					"idadedosemeses": 5,
+					"idadedoseextenso": "5 meses",
+					"dosevacina": "2ª dose",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "meningococica-c-conjugada-7",
+					"nomevacina": "Meningocócica C (conjugada)",
+					"idadedosemeses": 7,
+					"idadedoseextenso": "7 meses",
+					"dosevacina": "Reforço",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "meningococica-c-conjugada-12",
+					"nomevacina": "Meningocócica C (conjugada)",
+					"idadedosemeses": 12,
+					"idadedoseextenso": "12 meses",
+					"dosevacina": "Reforço",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "meningococica-c-conjugada-60",
+					"nomevacina": "Meningocócica C (conjugada)",
+					"idadedosemeses": 60,
+					"idadedoseextenso": "5 anos",
+					"dosevacina": "Reforço",
+					"fontedose": "SBIm/SBP"
+				}
+			]
+		},
+		{
+			"nomevacina": "Meningocócica B",
+			"descricao": {
+				"texto": "Protege contra doença meningocócica invasiva (meningite, meningococcemia) causada pelo meningococo do tipo B.",
+				"fonte": "SBIm/SBP"
+			},
+			"redepublica": {
+				"texto": "Não disponível na rede pública.",
+				"fonte": "SBIm/SBP"
+			},
+			"variacao": {
+				"texto": "Somente na rede privada.",
+				"fonte": "SBIm/SBP"
+			},
+			"comentarios": {
+				"texto": "-",
+				"fonte": "SBIm/SBP"
+			},
+			"doses": [
+				{
+					"chavedose": "meningococica-b-3",
+					"nomevacina": "Meningocócica B",
+					"idadedosemeses": 3,
+					"idadedoseextenso": "3 meses",
+					"dosevacina": "1ª dose",
+					"fontedose": "SBIm/SBP"
+				},
+				{
+					"chavedose": "meningococica-b-5",
+					"nomevacina": "Meningocócica B",
+					"idadedosemeses": 5,
+					"idadedoseextenso": "5 meses",
+					"dosevacina": "2ª dose",
+					"fontedose": "SBIm/SBP"
+				},
+				{
+					"chavedose": "meningococica-b-7",
+					"nomevacina": "Meningocócica B",
+					"idadedosemeses": 7,
+					"idadedoseextenso": "7 meses",
+					"dosevacina": "3ª dose",
+					"fontedose": "SBIm/SBP"
+				},
+				{
+					"chavedose": "meningococica-b-12",
+					"nomevacina": "Meningocócica B",
+					"idadedosemeses": 12,
+					"idadedoseextenso": "12 meses",
+					"dosevacina": "Reforço",
+					"fontedose": "SBIm/SBP"
+				}
+			]
+		},
+		{
+			"nomevacina": "Febre Amarela",
+			"descricao": {
+				"texto": "Protege contra a febre amarela.",
+				"fonte": "SUS"
+			},
+			"redepublica": {
+				"texto": "-",
+				"fonte": "SUS"
+			},
+			"variacao": {
+				"texto": "Não há variação da vacina da rede pública.",
+				"fonte": "SUS"
+			},
+			"comentarios": {
+				"texto": "Pode ser recomendada também para atender a exigências sanitárias de determinadas viagens internacionais, devendo a vacinação ser feita até 10 dias antes de viagens. Recomenda- se que crianças menores de 2 anos de idade não recebam as vacinas febre amarela e tríplice viral no mesmo dia. Nesses casos, e sempre que possível, respeitar intervalo de 30 dias entre as doses. Contraindicada para imunodeprimidos; mas se os riscos de adquirir a doença superarem os riscos potenciais da vacinação, o médico deverá avaliar sua utilização.",
+				"fonte": "SBIm/SBP"
+			},
+			"doses": [
+				{
+					"chavedose": "febre-amarela-9",
+					"nomevacina": "Febre Amarela",
+					"idadedosemeses": 9,
+					"idadedoseextenso": "9 meses",
+					"dosevacina": "Dose única",
+					"fontedose": "SUS"
+				}
+			]
+		},
+		{
+			"nomevacina": "Hepatite A",
+			"descricao": {
+				"texto": "Previne a infecção do fígado causado pelo vírus da hepatite A.",
+				"fonte": "SUS"
+			},
+			"redepublica": {
+				"texto": "-",
+				"fonte": "SUS"
+			},
+			"variacao": {
+				"texto": "Não há variação da vacina da rede pública.",
+				"fonte": "SUS"
+			},
+			"comentarios": {
+				"texto": "-",
+				"fonte": "SBIm/SBP"
+			},
+			"doses": [
+				{
+					"chavedose": "hepatite-a-15",
+					"nomevacina": "Hepatite A",
+					"idadedosemeses": 15,
+					"idadedoseextenso": "15 meses",
+					"dosevacina": "Uma dose",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "hepatite-a-18",
+					"nomevacina": "Hepatite A",
+					"idadedosemeses": 18,
+					"idadedoseextenso": "18 meses",
+					"dosevacina": "Reforço",
+					"fontedose": "SBIm/SBP"
+				}
+			]
+		},
+		{
+			"nomevacina": "Tríplice Viral (SCR)",
+			"descricao": {
+				"texto": "Protege contra sarampo, caxumba e rubéola.",
+				"fonte": "SUS"
+			},
+			"redepublica": {
+				"texto": "-",
+				"fonte": "SUS"
+			},
+			"variacao": {
+				"texto": "Não há variação da vacina da rede pública.",
+				"fonte": "SUS"
+			},
+			"comentarios": {
+				"texto": "Em situaçã o de risco para o sarampo – por exemplo, surto ou exposiçã o domiciliar – a primeira dose pode ser aplicada a partir de 6 meses de idade. Nesses casos, a aplicaçã o de mais duas doses após a idade de 1 ano ainda será necessária.",
+				"fonte": "SBIm/SBP"
+			},
+			"doses": [
+				{
+					"chavedose": "triplice-viral-scr-12",
+					"nomevacina": "Tríplice Viral (SCR)",
+					"idadedosemeses": 12,
+					"idadedoseextenso": "12 meses",
+					"dosevacina": "1ª dose",
+					"fontedose": "SUS"
+				}
+			]
+		},
+		{
+			"nomevacina": "Tetra Viral (SCRV)",
+			"descricao": {
+				"texto": "Protege contra sarampo, caxumba, rubéola e varicela.",
+				"fonte": "SUS"
+			},
+			"redepublica": {
+				"texto": "-",
+				"fonte": "SUS"
+			},
+			"variacao": {
+				"texto": "Não há variação da vacina da rede pública.",
+				"fonte": "SUS"
+			},
+			"comentarios": {
+				"texto": "Aos 12 meses de idade: devem ser feitas, na mesma visita, as primeiras doses das vacinas tríplice viral (SCR) e varicela, em administrações separadas, ou a vacina tetraviral (SCRV). A vacina SCRV se mostrou associada a uma maior frequência de febre em lactentes que receberam a primeira dose com esta vacina, quando comparados com os que recebem as vacinas varicela e tríplice viral em injeções separadas. Aos 15 meses de idade deverá ser feita a segunda dose, preferencialmente com a vacina SCRV, com intervalo mínimo de três meses da última dose de varicela e SCR ou SCRV. Em situações de risco como, por exemplo, surtos ou exposição domiciliar ao sarampo, é possível vacinar crianças imunocompetentes de 6 a 12 meses com a vacina SCR. Em casos de surtos ou contato íntimo com caso de varicela, a vacina varicela pode ser utilizada a partir de 9 meses de vida. Nesses casos, doses aplicadas antes dos 12 meses de idade não são consideradas válidas, e a aplicação de mais duas doses após a idade de um ano é necessária.",
+				"fonte": "SBIm/SBP"
+			},
+			"doses": [
+				{
+					"chavedose": "tetra-viral-15",
+					"nomevacina": "Tetra Viral (SCRV)",
+					"idadedosemeses": 15,
+					"idadedoseextenso": "15 meses",
+					"dosevacina": "Uma dose",
+					"fontedose": "SUS"
+				}
+			]
+		},
+		{
+			"nomevacina": "Influenza (gripe)",
+			"descricao": {
+				"texto": "-",
+				"fonte": "SUS"
+			},
+			"redepublica": {
+				"texto": "3V",
+				"fonte": "SUS"
+			},
+			"variacao": {
+				"texto": "4V - possui maior cobertura das cepas circulantes que a 3V. Indicação reimunização anual, independente da idade.",
+				"fonte": "SUS"
+			},
+			"comentarios": {
+				"texto": "Recomendada para todas as crianças a partir dos 6 meses de idade. Quando administrada pela primeira vez em crianças menores de 9 anos, aplicar duas doses com intervalo de 30 dias. Desde que disponível, a vacina influenza 4V é preferível à vacina influenza 3V, por conferir maior cobertura das cepas circulantes. Na impossibilidade de uso da vacina 4V, utilizar a vacina 3V. A vacina deve ser feita anualmente e, como a influenza é uma doença sazonal, a vacina deve ser aplicada antes do período de maior circulação do vírus.",
+				"fonte": "SBIm/SBP"
+			},
+			"doses": [
+				{
+					"chavedose": "influenza-gripe-6",
+					"nomevacina": "Influenza (gripe)",
+					"idadedosemeses": 6,
+					"idadedoseextenso": "6 meses",
+					"dosevacina": "1ª dose",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "influenza-gripe-7",
+					"nomevacina": "Influenza (gripe)",
+					"idadedosemeses": 7,
+					"idadedoseextenso": "7 meses",
+					"dosevacina": "Reforço",
+					"fontedose": "SUS"
+				},
+				{
+					"chavedose": "influenza-gripe-48",
+					"nomevacina": "Influenza (gripe)",
+					"idadedosemeses": 48,
+					"idadedoseextenso": "4 anos",
+					"dosevacina": "Reforço",
+					"fontedose": "SUS"
+				}
+			]
+		},
+		{
+			"nomevacina": "HPV",
+			"descricao": {
+				"texto": "Protege contra o HPV (Papilomavírus humano).",
+				"fonte": "SUS"
+			},
+			"redepublica": {
+				"texto": "-",
+				"fonte": "SUS"
+			},
+			"variacao": {
+				"texto": "Não há variação da vacina da rede pública.",
+				"fonte": "SUS"
+			},
+			"comentarios": {
+				"texto": "HPV4, licenciada para ambos os sexos; e HPV2, licenciada apenas para o sexo feminino.",
+				"fonte": "SBIm/SBP"
+			},
+			"doses": [
+				{
+					"chavedose": "hpv-108",
+					"nomevacina": "HPV",
+					"idadedosemeses": 108,
+					"idadedoseextenso": "9 anos",
+					"dosevacina": "2 doses",
+					"fontedose": "SUS"
+				}
+			]
+		},
+		{
+			"nomevacina": "Dengue",
+			"descricao": {
+				"texto": "Previne contra 4 sorotipos de dengue. Permitida apenas a partir de 9 anos.",
+				"fonte": "SBIm/SBP"
+			},
+			"redepublica": {
+				"texto": "Não disponível na rede pública.",
+				"fonte": "SBIm/SBP"
+			},
+			"variacao": {
+				"texto": "Somente na rede privada.",
+				"fonte": "SBIm/SBP"
+			},
+			"comentarios": {
+				"texto": "A vacina dengue foi recentemente licenciada em nosso país no esquema de três doses com intervalo de 6 meses entre cada uma delas. É recomendada rotineiramente para crianças e adolescentes a partir de 9 anos até no máximo 45 anos de idade, em regiões endêmicas. Está contraindicada para gestantes, mulheres que amamentam e portadores de imunodeficiências. A vacina não deve ser administrada simultaneamente com outras vacinas do calendário.",
+				"fonte": "SBIm/SBP"
+			},
+			"doses": [
+				{
+					"chavedose": "dengue-108",
+					"nomevacina": "Dengue",
+					"idadedosemeses": 108,
+					"idadedoseextenso": "9 anos",
+					"dosevacina": "3 doses com intervalo de 6 meses entre cada uma",
+					"fontedose": "SBIm/SBP"
+				}
+			]
+		},
+		{
+			"nomevacina": "Varicela (catapora)",
+			"descricao": {
+				"texto": "-",
+				"fonte": "SBIm/SBP"
+			},
+			"redepublica": {
+				"texto": "Na rede pública disponível na tetra viral.",
+				"fonte": "SBIm/SBP"
+			},
+			"variacao": {
+				"texto": "Uma única dose que é oferecida na rede pública protege contra as formas mais graves da doença. A aplicação de uma segunda dose potencializa a proteção contra formas menos graves.",
+				"fonte": "SBIm/SBP"
+			},
+			"comentarios": {
+				"texto": "A vacina SCRV se mostrou associada a uma maior frequência de febre em lactentes que receberam a primeira dose com esta vacina, quando comparados com os que recebem as vacinas varicela e tríplice viral em injeções separadas. Em casos de surtos ou contato íntimo com caso de varicela, a vacina varicela pode ser utilizada a partir de 9 meses de vida.",
+				"fonte": "SBIm/SBP"
+			},
+			"doses": []
+		},
+		{
+			"nomevacina": "Triplice bacteriana acelular do tipo adulto",
+			"descricao": {
+				"texto": "(Tríplice bacteriana: coqueluche, hepatite B e as infecções causadas pela bactéria Haemophilus influenza tipo b).",
+				"fonte": "SBIm/SBP"
+			},
+			"redepublica": {
+				"texto": "Na rede pública disponível apenas as doses da infância, incluída na Penta/DTP.",
+				"fonte": "SBIm/SBP"
+			},
+			"variacao": {
+				"texto": "Indicada como reforço a cada dez anos.",
+				"fonte": "SBIm/SBP"
+			},
+			"comentarios": {
+				"texto": "-",
+				"fonte": "SBIm/SBP"
+			},
+			"doses": []
+		},
+		{
+			"nomevacina": "dT",
+			"descricao": {
+				"texto": "Protege contra difteria e tétano.",
+				"fonte": "SBIm/SBP"
+			},
+			"redepublica": {
+				"texto": "Na rede pública disponível apenas as doses da infância, incluída na Penta/DTP.",
+				"fonte": "SBIm/SBP"
+			},
+			"variacao": {
+				"texto": "Indicada como reforço a cada dez anos.",
+				"fonte": "SBIm/SBP"
+			},
+			"comentarios": {
+				"texto": "Acho que só entra em observações. Não incluí no calendário final.",
+				"fonte": "SBIm/SBP"
+			},
+			"doses": []
+		},
+		{
+			"nomevacina": "Hexavalente acelular",
+			"descricao": {
+				"texto": "Protege contra difteria, tétano, coqueluche, hepatite B, as infecções causadas pela bactéria Haemophilus influenza tipo b e também poliomielite.",
+				"fonte": "SBIm/SBP"
+			},
+			"redepublica": {
+				"texto": "-",
+				"fonte": "SBIm/SBP"
+			},
+			"variacao": {
+				"texto": "Além de possuir composição acelular, provocando reações adversas muito menos intensas, agrega a vacina contra Hepatite B em conjunto com as demais já encontradas na pentavalente, ou seja, uma agulhada a menos, o que além de reduzir o incômodo para a criança, reduz a possibilidade de reações adversas",
+				"fonte": "SBIm/SBP"
+			},
+			"comentarios": {
+				"texto": "Substitui e segue esquema de doses da Penta/DTP.",
+				"fonte": "SBIm/SBP"
+			},
+			"doses": []
+		},
+		{
+			"nomevacina": "Hib",
+			"descricao": {
+				"texto": "Haemophilus influenzae B: Protege doenças infecciosas e complicações causas pela bactéria, como pneumonia, dor de ouvido, inflamação na epiglote, meningite, inflamação nas articulações, entre outros.",
+				"fonte": "SBIm/SBP"
+			},
+			"redepublica": {
+				"texto": "Na rede pública está inclusa na Penta. Na rede privada pode ser dada individualmente",
+				"fonte": "SBIm/SBP"
+			},
+			"variacao": {
+				"texto": "-",
+				"fonte": "SBIm/SBP"
+			},
+			"comentarios": {
+				"texto": "Se a criança tiver sido imunizada apenas pela vacina Tríplice DTP deve ser completada a imunização com a vacina Hib individualmente em 4 doses. Em caso de imunização com Penta DTP é dispensada sua aplicação.",
+				"fonte": "SBIm/SBP"
+			},
+			"doses": []
+		},
+		{
+			"nomevacina": "Meningocócica ACWY",
+			"comentarios": {
+				"fonte": "SBIm/SBP",
+				"texto": "-"
+			},
+			"descricao": {
+				"fonte": "SBIm/SBP",
+				"texto": "-"
+			},
+			"redepublica": {
+				"fonte": "SBIm/SBP",
+				"texto": "-"
+			},
+			"variacao": {
+				"fonte": "SBIm/SBP",
+				"texto": "Esta vacina é oferecida apenas na rede privada. Oferece cobertura para 4 tipos adicionais de meningococos causadores da meningite, os tipos A, C, W e Y."
+			}
+		}
+	]
+}
