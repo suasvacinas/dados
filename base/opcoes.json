@@ -91,6 +91,15 @@
       {"tipo": "dose", "titulo": "9 anos ou mais", "meses": 108}
     ]
   },
+  {
+    "chave": "meu-eu",
+    "descricao": "Qual a sua idade?\n :)",
+    "subOpcoes": [
+      {"tipo": "dose", "titulo": "Até 4 anos", "meses": 48},
+      {"tipo": "dose", "titulo": "5 anos", "meses": 60},
+      {"tipo": "dose", "titulo": "9 anos ou mais", "meses": 108}
+    ]
+  },
 
   {
     "chave": "meu-familiar",
